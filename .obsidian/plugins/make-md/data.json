@@ -34,7 +34,17 @@
   "sidebarTabs": true,
   "showRibbon": true,
   "deleteFileOption": "trash",
-  "expandedFolders": {},
+  "expandedFolders": {
+    "Study": [
+      "Http",
+      "Http",
+      "Http",
+      "Http",
+      "Http",
+      "Http",
+      "Http"
+    ]
+  },
   "expandedSpaces": [
     "/",
     null,
@@ -70,7 +80,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1694747770994,
+  "spacesAutoBackupLast": 1694759607163,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
