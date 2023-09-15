@@ -1,7 +1,7 @@
 ---
 tags: RESTful API
 ---
-(Representational State Transfer [[API]])
+(Representational State Transfer API]])
 어플리케이션과 서비스 사이에서 데이터 통신을 하기 위한 효과적인 방법
 
 ## Restful API 스타일 원칙
@@ -33,6 +33,8 @@ Ex) /users는 사용자 목록, /users/123 사용자 목록 중 ID가 123
 ### 독립성
 클라이언트와 서버가 독립되어 있어 양쪽에 영향을 주지 않고 각자 개발이 가능하다.
 
+
+
 ## Restful API 클라이언트 요청
 
 ---
@@ -51,11 +53,24 @@ HTTP를 이용해 RESTful API를 구현합니다. (GET, POST, PUT, DELETE)
 삭제할 때 사용하는 메서드 바디를 통해 데이터를 전달, 적절한 인증이 없으면 요청 실패!?!?
 
 
+
+
 ## RESTful API는 어떻게 작동하는가?
+---
 클라이언트 -> 리소스와 Http 메서드로 요청 -> 서버 -> 클라이언트로 응답 반환
 
-### Restful API 클라이언트 요청에는 무엇이 담겨져 있는가?
+
+
+
+
+
+## Restful API 클라이언트 요청에는 무엇이 담겨져 있는가?
+--- 
 Http 메서드, Http 헤더, 데이터, 파라미터가 들어있다.
+
+
+
+
 
 ## Restful API 인증 방법
 ---
