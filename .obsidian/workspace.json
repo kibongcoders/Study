@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,7 +156,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f7210660fca8f903",
+  "active": "2649b18e7fb7ff35",
   "lastOpenFiles": [
     "Study List.md",
     "Context/spacesLastSync.log",
