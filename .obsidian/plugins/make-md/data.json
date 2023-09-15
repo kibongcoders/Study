@@ -44,6 +44,11 @@
       "Http",
       "Http",
       "Http",
+      "Http",
+      "Http",
+      "Http",
+      "Http",
+      "Http",
       "Http"
     ]
   },
@@ -82,7 +87,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1694760321125,
+  "spacesAutoBackupLast": 1694779831062,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
