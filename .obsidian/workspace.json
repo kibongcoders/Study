@@ -106,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,12 +190,12 @@
   },
   "active": "6fbfc54942b1dd3d",
   "lastOpenFiles": [
-    "Http/OAuth.md",
+    "Study List.md",
     "Http/RESTful API.md",
+    "Http/OAuth.md",
     "Http/JWT.md",
     "Http/API.md",
     "OAuth.md",
-    "Study List.md",
     "Untitled.md",
     "Http/Http.md",
     "Http",
