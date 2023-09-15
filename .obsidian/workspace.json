@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Http/RestFul API.md",
+                "file": "Http/RESTful API.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Http/RestFul API.md",
+                "file": "Http/RESTful API.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Http/RestFul API.md",
+                "file": "Http/RESTful API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Http/RestFul API.md",
+                "file": "Http/RESTful API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Http/RestFul API.md"
+                "file": "Http/RESTful API.md"
               }
             }
           }
@@ -192,8 +192,8 @@
   "active": "6fbfc54942b1dd3d",
   "lastOpenFiles": [
     "Http/API.md",
-    "Http/RestFul API.md",
     "Study List.md",
+    "Http/RESTful API.md",
     "Untitled.md",
     "Http/Http.md",
     "Http",
