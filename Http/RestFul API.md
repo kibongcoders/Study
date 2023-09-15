@@ -63,10 +63,10 @@ HTTP를 이용해 RESTful API를 구현합니다. (GET, POST, PUT, DELETE)
 
 
 
-
 ## Restful API 클라이언트 요청에는 무엇이 담겨져 있는가?
 --- 
 Http 메서드, Http 헤더, 데이터, 파라미터가 들어있다.
+
 
 
 

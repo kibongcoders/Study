@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study List.md",
+                "file": "Http/RESTful API.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "bdfa4c60a982c778",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -43,16 +35,18 @@
             "id": "6fbfc54942b1dd3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Http/RESTful API.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": -230,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,14 +182,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6fbfc54942b1dd3d",
+  "active": "5a62ad9ac59f4a29",
   "lastOpenFiles": [
+    "Http/OAuth.md",
     "Http/API.md",
     "Http/Http.md",
-    "Http/OAuth.md",
     "Http/JWT.md",
     "Http/RESTful API.md",
+    "Untitled.canvas",
     "Study List.md",
+    "2023-09-15.md",
     "OAuth.md",
     "Untitled.md",
     "Http",
