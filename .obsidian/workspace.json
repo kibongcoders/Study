@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Http/RESTful API.md",
+                "file": "Study List.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,11 +23,9 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Http/RESTful API.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20230915222259.png"
               }
             }
           },
@@ -40,7 +38,7 @@
                 "file": "Untitled.canvas",
                 "viewState": {
                   "x": -230,
-                  "y": 0,
+                  "y": -947.9818542480468,
                   "zoom": 0
                 }
               }
@@ -120,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Http/RESTful API.md",
+                "file": "Study List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Http/RESTful API.md",
+                "file": "Study List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Http/RESTful API.md"
+                "file": "Study List.md"
               }
             }
           }
@@ -184,17 +182,17 @@
   },
   "active": "5a62ad9ac59f4a29",
   "lastOpenFiles": [
-    "Pasted image 20230915222326.png",
+    "Http/JWT.md",
+    "Http/Http.md",
+    "Http/API.md",
+    "Http/RESTful API.md",
+    "Http/OAuth.md",
     "Pasted image 20230915222259.png",
+    "Untitled.canvas",
+    "Pasted image 20230915222326.png",
     "무제 2.jpg",
     "Study List.md",
-    "Untitled.canvas",
-    "Http/RESTful API.md",
     "Untitled.md",
-    "Http/OAuth.md",
-    "Http/API.md",
-    "Http/Http.md",
-    "Http/JWT.md",
     "2023-09-15.md",
     "OAuth.md",
     "Http",
