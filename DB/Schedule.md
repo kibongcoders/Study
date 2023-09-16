@@ -26,7 +26,10 @@ Conflict 두개의 오퍼레이션에 해당
 write write conflict
 conflict operation은 순서가 바뀌면 결과도 바뀐다.
 
-Conflict equ 
+Conflict equivalent
+두 조건을 만족
+두 스케줄은 같은 트랜잭션을 가져야함
+어떤 conflict operation의 순서도 양쪽 스케줄 모두 동일하다.
 
-
-
+Conflict Serializable
+시리얼 스케줄과 Conflict equivalent일 때
