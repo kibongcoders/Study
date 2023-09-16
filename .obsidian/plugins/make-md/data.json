@@ -58,7 +58,9 @@
       "DB/Concurrency Control",
       "DB/Concurrency Control",
       "DB/Concurrency Control",
-      "DB/Concurrency Control"
+      "DB/Concurrency Control",
+      "DB/Concurrency Control",
+      "Http/Image"
     ]
   },
   "expandedSpaces": [

@@ -35,9 +35,11 @@
             "id": "32326be67cf32163",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "DB/Concurrency Control"
+                "file": "DB/Transaction.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -144,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DB/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DB/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DB/Transaction.md"
+              }
             }
           }
         ]
@@ -204,14 +210,15 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Conflict.md",
+    "Http/RESTful API.md",
+    "Http/OAuth.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Transaction.md",
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control.md",
     "Untitled.canvas",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control",
-    "Http/OAuth.md",
     "Http/Image/Pasted image 20230915222259.png",
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg",
@@ -224,7 +231,6 @@
     "Http/JWT.md",
     "Http/Http.md",
     "Http/API.md",
-    "Http/RESTful API.md",
     "Untitled.md",
     "2023-09-15.md",
     "OAuth.md",
