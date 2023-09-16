@@ -35,11 +35,9 @@
             "id": "32326be67cf32163",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "DB/Transaction.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "DB/Concurrency Control"
               }
             }
           },
@@ -146,7 +144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +160,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +181,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/Transaction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -210,9 +204,9 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Transaction.md",
+    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control.md",
     "Untitled.canvas",
     "DB/Concurrency Control/Concurrency Control.md",
