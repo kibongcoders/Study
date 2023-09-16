@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Schedule.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Schedule.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Schedule.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Schedule.md"
+                "file": "DB/Concurrency Control/Schedule.md"
               }
             }
           }
@@ -198,12 +198,15 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control.md",
-    "DB/Schedule.md",
+    "DB/Concurrency Control/Schedule.md",
+    "Untitled.canvas",
+    "DB/Concurrency Control/Concurrency Control.md",
+    "DB/Concurrency Control",
     "DB/Transaction.md",
     "Http/OAuth.md",
     "Http/Image/Pasted image 20230915222259.png",
-    "Untitled.canvas",
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg",
     "Http/Image/Image.md",

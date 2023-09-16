@@ -2,20 +2,19 @@
 
 스케줄은 이렇게 표현할 수 있다.
 r1(K) - w1(K) - r2(H) - w2(K) - c2 - r1(H) - w1(H) - c1
-
-serial schedule 트랜잭션들이 겹치지 않고 한번에 하나씩 실행되는 스케줄
+read, write, commit
+Serial Schedule 트랜잭션들이 겹치지 않고 한번에 한 트랜잭션씩 실행되는 스케줄
 무결성은 유지되나 좋은 성능을 유지 할 수 없는 방법
 
-nonserial schedule 트랜잭션들이 겹처서 실행 되는 스케줄
+Nonserial Schedule 트랜잭션들이 겹처서 실행 되는 스케줄
 트랜잭션들이 겹처서 실행되기 때문에 동시성이 높아져서 같은 시간 동안 더 많은 트랜잭션들을 처리할 수 있다.
-단점은 무결성 보장이 되지 않는다.
+단점은 무결성 보장이 되지 않을 수 있다.
 
 좋은 성능을 유지하면서 무결성을 유지하는 방법
-serial schedule과 동일한 nonserial schedule을 실행하면 된다!?!?
+Serial schedule과 동일한 Nonserial schedule을 실행하면 된다!?!?
 
-schedule이 동일한다
-
-Conflict 두개의 오퍼레이션에 해당
+Conflict 
+두개의 오퍼레이션에 해당
 만족 조건
 서로 다른 트랜잭션 소속
 같은 데이터에 접근
