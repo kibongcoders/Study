@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "089652ceb5e0332e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
+          },
+          {
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
@@ -44,7 +54,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +191,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "5a62ad9ac59f4a29",
+  "active": "089652ceb5e0332e",
   "lastOpenFiles": [
     "Study List.md",
     "DB/Transaction.md",
