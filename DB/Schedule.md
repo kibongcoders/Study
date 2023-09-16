@@ -33,3 +33,7 @@ Conflict equivalent
 
 Conflict Serializable
 시리얼 스케줄과 Conflict equivalent일 때
+
+구현이슈 
+할 때 마다 Conflict Serializable 하지는 않는다.
+하도록 보장하는 프로토콜이 있다!!
