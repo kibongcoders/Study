@@ -6,7 +6,19 @@
 mysql > Start Transaction
 mysql > SQL 문으로 작동
 mysql > COMMIT
+중간에 제가 있다면 ROLLBACK
 
 만약 문제가 있었다면 알아서 rollback 해준다.
 mysql은 autocommit이 기본값이다. SELECT @@AUTOCOMMIT 으로 확인 가능
 SET autocommit=0; 으로 autocommit 비활성화 가능
+
+rollback 이란 트랜잭션 시작 이후의 작업을 모두 취소하고 트랜잭션 이전 상태를 되돌리고 종료
+
+DB에 대한 커넥션이 먼저다.
+Auto Commit을 false로 해줘야 트랜잭션을 관리 할 수 있겠죠
+Auto Commit은 결국 true 해줘야 한다.
+
+@Transactional
+애노테이션을 통해 트랜잭션 관련 코드를 숨길 수 있다.
+없으면 다 구현해야함
+
