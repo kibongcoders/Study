@@ -1,4 +1,4 @@
-Conflict  두개의 오퍼레이션이 3가지의 조건을 만족하면 Conflict하다라고 한다.
+Conflict 두개의 오퍼레이션이 3가지의 조건을 만족하면 Conflict하다라고 한다.
 - 서로 다른 트랜잭션 소속 
   -> 같은 트랜잭션을 비교해봤자 어떻게 무결성을 지킬수 있을까?
 - 같은 데이터에 접근 
@@ -9,7 +9,7 @@ Conflict  두개의 오퍼레이션이 3가지의 조건을 만족하면 Conflic
 하나는 읽고 하나는 쓰는 Conflict를 read-write conflict라고 부른다.
 하나는 쓰고 하나도 쓰는 Conflict를 write-write conflict라고 부른다.
 
-Conflict  Operation은 순서가 바뀌면 결과도 바뀐다.
+Conflict Operation은 순서가 바뀌면 결과도 바뀐다.
 원래 w-r 였던 Conflict Operation이 r-w로 바뀐다면 당연히 결과도 바뀔수 밖에없다.
 왜냐하면 2개가 다른 트랜잭션이여서 r-w로 바뀌게 된다면 반영이 되지 않을것이다.
 
@@ -22,8 +22,8 @@ Conflict Equivalent 두개의 스케줄이 2가지의 조건을 만족하면 Con
   (두 스케줄 사이의 모든 Conflict Operation이 모두 이 조건을 성립야한다.)
 
 Conflict Serializable
-Nonserial Schedule 과 Serial Schedule Conflict equivalent일 때 이것을 Conflict Serializable한다라고 합니다.
+한 Schedule 과 Serial Schedule Conflict equivalent일 때 이것을 Conflict Serializable한다라고 합니다.
 
 구현이슈 
 트랜잭션을 할 때 마다 모두 비교해가며 Conflict Serializable 하지는 않는다.
-하지만 Schedule Conflict Serializable 하도록 보장하는 프로토콜이 있다!
+하지만 Schedule Conflict Serializable 하도록 보장하는 프로토콜을 적용해서 사용해서 Conflict Serializable한 Schedule을 만들 수 있다.
