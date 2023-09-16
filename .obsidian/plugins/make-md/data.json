@@ -42,7 +42,8 @@
       "Http",
       "Http/Image",
       "Http/Image",
-      "Http"
+      "Http",
+      "DB"
     ]
   },
   "expandedSpaces": [
@@ -80,7 +81,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1694869835679,
+  "spacesAutoBackupLast": 1694872890538,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
