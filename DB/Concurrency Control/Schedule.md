@@ -15,4 +15,6 @@ Nonserial Schedule 트랜잭션들이 겹처서 실행 되는 스케줄
 좋은 성능을 유지하면서 무결성을 유지하는 방법
 Serial schedule과 동일한 Nonserial schedule을 실행하면 된다!?!?
 
+이것을 해결하려면 [[Conflict]] Serialzable한 스케줄을 찾으면 된다.
+
 
