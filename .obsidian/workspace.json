@@ -210,11 +210,11 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/Transaction.md",
     "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/Schedule.md",
+    "DB/Transaction.md",
     "Http/RESTful API.md",
     "Http/OAuth.md",
-    "DB/Concurrency Control/Schedule.md",
     "DB/Concurrency Control.md",
     "Untitled.canvas",
     "DB/Concurrency Control/Concurrency Control.md",
