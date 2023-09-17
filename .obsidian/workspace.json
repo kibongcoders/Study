@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/Schedule.md",
+                "file": "DB/Concurrency Control/Recoverability.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/Schedule.md",
+                "file": "DB/Concurrency Control/Recoverability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/Schedule.md",
+                "file": "DB/Concurrency Control/Recoverability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/Schedule.md"
+                "file": "DB/Concurrency Control/Recoverability.md"
               }
             }
           }
@@ -210,8 +210,9 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Schedule.md",
+    "DB/Concurrency Control/Recoverability.md",
+    "DB/Concurrency Control/Conflict.md",
     "DB/Transaction.md",
     "Http/RESTful API.md",
     "Http/OAuth.md",
