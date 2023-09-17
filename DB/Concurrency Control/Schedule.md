@@ -4,11 +4,12 @@
 r1(K) - w1(K) - r2(H) - w2(K) - c2 - r1(H) - w1(H) - c1
 read, write, commit의 앞자를 따서 표현하고 하나 하나를 오퍼레이션이라고 부른다.
 
+## Schedule 종류
 스케줄은 2가지 종류가 있다.
-Serial Schedule 트랜잭션들이 겹치지 않고 한번에 한 트랜잭션씩 실행되는 스케줄
+**Serial Schedule** 트랜잭션들이 겹치지 않고 한번에 한 트랜잭션씩 실행되는 스케줄
 무결성은 유지되나 좋은 성능을 유지 할 수 없는 방법
 
-Nonserial Schedule 트랜잭션들이 겹처서 실행 되는 스케줄
+**Nonserial Schedule** 트랜잭션들이 겹처서 실행 되는 스케줄
 트랜잭션들이 겹처서 실행되기 때문에 동시성이 높아져서 같은 시간 동안 더 많은 트랜잭션들을 처리할 수 있다.
 단점은 무결성 보장이 되지 않을 수 있다.
 
@@ -16,5 +17,13 @@ Nonserial Schedule 트랜잭션들이 겹처서 실행 되는 스케줄
 Serial schedule과 동일한 Nonserial schedule을 실행하면 된다!?!?
 
 이것을 해결하려면 [[Conflict]] Serialzable한 스케줄을 찾으면 된다.
+
+Recoverable Schedule
+
+Cascadeless Schedule
+
+Strict Schedule
+
+
 
 
