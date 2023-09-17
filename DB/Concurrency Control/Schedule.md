@@ -48,6 +48,7 @@ read만 안하고 write만 두번한다면 Cascadeless Schedule은 적용되지�
 Strict Schedule
 스케줄내에 COMMIT 되지 않은 트랜잭션의 write를 그 어떤 트랜잭션도 read 또는 write 하지 않는 경우 
 r1(K) - w1(K) - r2(H) - w2(H) - c2 - r1(H) - w1(H) - c1
+아니 근데 
 
 
 
