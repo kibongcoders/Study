@@ -30,9 +30,20 @@ Recoverable Schedule
 의존성이 있는 트랜잭션이 종료 될 때까지 기다려야한다.
 스케줄 내에서 어떤 트랜잭션도 트랜잭션이 읽은 해당 write 트랜잭션이  먼저 commit/rollback 전까지는 commit 하지 않는 경우
 r1(K) - w1(K) - r2(H) - w2(H) - r1(H) - w1(H) - c2 - c1 으로 변경 되어야 하며
-만약 c2하기 전에 문제가 생긴다면 모두다 abort 시켜야 한다.
+만약 c2하기 전에 문제가 생긴다면 모두다 abort(무효화) 시켜야 한다.
 
 Cascadeless Schedule
+r1(K) - w1(K) - r2(H) - w2(H) - r1(H) - w1(H) - c2 - c1
+이 상황에서 c2가 문제가 생겨 ROLLBACK 하게 되면 모두 다 ROLLBACK 해야하는데 연쇄적으로 ROLLBACK 하게 되면 비용이 많이 발생하게 된다.
+이것을 해결하기위해
+스케줄내에 COMMIT 되지 않은 트랜잭션의 write를 그 어떤 트랜잭션도 read하지 않는 경우 
+Cascadeless Schedule라고 한다.
+r1(K) - w1(K) - r2(H) - w2(H) - c2 - r1(H) - w1(H) - c1
+해당 순서를 이렇게 변경한다면 Cascadeless Schedule한 스케줄 이라고 볼 수 있다.
+
+하지만 Cascadeless Schedule에는 이슈가 있을 수 있는데
+read만 안하고 write만 두번한다면 Cascadeless Schedule은 적용되지만 이 때 에러가 날 시 모두다 ROLLBACK 되는 장애가 
+
 
 Strict Schedule
 
