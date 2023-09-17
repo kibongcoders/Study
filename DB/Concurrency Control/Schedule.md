@@ -22,12 +22,15 @@ Unrecoverable Schedule
 트랜잭션 1하고 트랜잭션 2하고 맞물려서 동시에 진행될 때
 트랜잭션 2가 끝나기전에 트랜잭션1이 Commit을 한 뒤 트랜잭션 2에서 문제가 생기는 경우
 이미 Commit을 했기 때문에 트랜잭션의 영존성으로 트랜잭션 1에 로직에서 회복이 불가능한 경우가 생긴다.
-r1(K) - w1(K) - r2(H) - w2(H) - r1(H) - w1(H) - c1 을 한경우
+r1(K) - w1(K) - r2(H) - w2(H) - r1(H) - w1(H) - c1 - c2 을 한경우
 r1(H) 에서 이미 w2(H)한 값을 읽었기 때문에 c1을 한뒤 에러가 일어나면 ROLLBACK 을 해도 이전상태로 회복이 불가능해 질 수 있다.
 이런 Schedule은 DBMS에서 허용하면 안된다.
 
 Recoverable Schedule
-
+의존성이 있는 트랜잭션이 종료 될 때까지 기다려야한다.
+스케줄 내에서 어떤 트랜잭션도 트랜잭션이 읽은 해당 write 트랜잭션이  먼저 commit/rollback 전까지는 commit 하지 않는 경우
+r1(K) - w1(K) - r2(H) - w2(H) - r1(H) - w1(H) - c2 - c1 으로 변경 되어야 하며
+만약 c2하기 전에 문제가 생긴다면 모두다 abort 시켜야 한다.
 
 Cascadeless Schedule
 
