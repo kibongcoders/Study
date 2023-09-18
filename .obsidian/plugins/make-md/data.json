@@ -70,7 +70,9 @@
       "DB/Concurrency Control",
       "DB/Concurrency Control",
       "DB/Concurrency Control",
-      "DB/Concurrency Control"
+      "DB/Concurrency Control",
+      "DB",
+      "DB"
     ]
   },
   "expandedSpaces": [
@@ -108,7 +110,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1694921474567,
+  "spacesAutoBackupLast": 1695011033124,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
