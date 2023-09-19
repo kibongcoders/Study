@@ -36,24 +36,9 @@
   "deleteFileOption": "trash",
   "expandedFolders": {
     "Study": [
-      "DB",
-      "Http",
-      "Http",
-      "Http",
       "Http/Image",
       "Http/Image",
-      "Http",
-      "DB",
-      "DB",
-      "DB",
-      "DB",
-      "DB",
-      "DB",
       "Http/Image",
-      "DB",
-      "DB",
-      "DB",
-      "DB",
       "DB/Concurrency Control",
       "DB/Concurrency Control"
     ]
@@ -61,8 +46,8 @@
   "expandedSpaces": [
     "/",
     null,
-    "Study",
-    null
+    null,
+    "Study"
   ],
   "expandFolderOnClick": true,
   "openFolders": [],
