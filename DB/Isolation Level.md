@@ -17,5 +17,10 @@ standard SQL 92 isolation level에 대한 비판
 해당 내용을 비판하면서 소개하는 레벨이 SNAPSHOT ISOLATION 이다.
 
 ## SNAPSHOT ISOLATION
+MVCC의 종류 중 하나
 Concurrency Control의 구현 방식에 따라서 정의된 레벨이다.
+특정 시점에서의 현상
 
+EX) tx1 : x가 y에 40을 이체한다. tx2: y에 100을 입금한다. x=50, y=50
+r1(x) => 50, w1(x) => 10, r2(y) => 50, w2(y) => 150, c2, r1(y) => 50, w1(y) => 90
+SNAPSHOT ISOLATION은 해당 스케주
