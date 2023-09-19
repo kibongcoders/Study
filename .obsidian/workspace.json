@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/Schedule.md",
+                "file": "DB/트랜잭션 이상 현상.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,11 +23,9 @@
             "id": "32326be67cf32163",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "DB/트랜잭션 이상 현상.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "DB"
               }
             }
           },
@@ -58,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,12 +193,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "32326be67cf32163",
+  "active": "089652ceb5e0332e",
   "lastOpenFiles": [
-    "DB/Isolation Level.md",
-    "DB/트랜잭션 이상 현상.md",
-    "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
+    "DB/트랜잭션 이상 현상.md",
+    "DB/Isolation Level.md",
+    "DB/Concurrency Control/Recoverability.md",
     "DB/Transaction.md",
     "DB/Untitled.canvas",
     "DB/Concurrency Control/Conflict.md",
