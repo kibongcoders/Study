@@ -1,3 +1,8 @@
+
+
+DB Lock
+
+
 |  | Read-Lock | Write-Lock |
 | --- | --- | --- |
 | Read-Lock | O | X |
