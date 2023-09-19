@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5a62ad9ac59f4a29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/Transaction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "089652ceb5e0332e",
             "type": "leaf",
             "state": {
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/트랜잭션 이상 현상.md",
+                "file": "DB/Isolation Level.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +59,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/트랜잭션 이상 현상.md",
+                "file": "DB/Isolation Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/트랜잭션 이상 현상.md",
+                "file": "DB/Isolation Level.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/트랜잭션 이상 현상.md"
+                "file": "DB/Isolation Level.md"
               }
             }
           }
@@ -210,8 +198,8 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/Isolation Level.md",
     "DB/트랜잭션 이상 현상.md",
+    "DB/Isolation Level.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Transaction.md",
