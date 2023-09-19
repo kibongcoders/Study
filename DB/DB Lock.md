@@ -26,8 +26,21 @@ Lock은 2개의 종류가 있습니다.
 
 Read-Lock을 먼저 한다음에 Write-Lock이 오는 경우 Read-Lock을 먼저 UNLOCK 한 다음에 Write-Lock이 실행되게 됩니다.
 
-DB Lock의 문제점
+## DB Lock의 문제점
 Lock이 모든것을 해결해 줄 것 같지만 Lock을 사용한다고 하여도 결국 문제는 발생합니다.
 Ex) x = 100, y=200, tx1 : x = x+y, tx2 : y=x+y 를 한다고 했을 때
+
 Serial Schedule을 tx1, tx2순으로 실행하면
-read-lock(y), r1(y) , unlock(y), write-lock(x)
+read-lock(y), r1(y) , unlock(y), write-lock(x), r1(x), w1(x) => x+y 300, unlock(x),
+read-lock(x), r2(x) , unlock(x), write-lock(y), r2(y), w1(y) => x+y 500, unlock(y)
+으로 스케줄이 실행이 되고
+x = 300 y = 500의 결과가 나오게 됩니다.
+
+tx2, tx1순으로 실행하면
+read-lock(x), r2(x) , unlock(x), write-lock(y), r2(y), w1(y) => x+y 300, unlock(y),
+read-lock(y), r1(y) , unlock(y), write-lock(x), r1(x), w1(x) => x+y 400, unlock(x)
+으로 스케줄이 실행이 되고
+x = 400 y = 300의 결과가 나오게 됩니다.
+
+NonSerial Schedule로 실행하면
+read-lock(x), 
