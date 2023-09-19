@@ -9,4 +9,4 @@ Concurrency Control은 Isolation과 연관이 있고
 Concurrency Control 구현 방법
 Concurrency Control은 [[DB Lock]]으로 구현이 가능하다
 
-MVCC
+[[MVCC]]

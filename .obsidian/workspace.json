@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/2PL Protocol.md",
+                "file": "DB/Isolation Level.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/2PL Protocol.md",
+                "file": "DB/Isolation Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/2PL Protocol.md",
+                "file": "DB/Isolation Level.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/2PL Protocol.md"
+                "file": "DB/Isolation Level.md"
               }
             }
           }
@@ -193,15 +193,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "089652ceb5e0332e",
+  "active": "f7210660fca8f903",
   "lastOpenFiles": [
     "DB/DB Lock.md",
     "DB/트랜잭션 이상 현상.md",
     "DB/Isolation Level.md",
-    "DB/Concurrency Control/2PL Protocol.md",
-    "DB/Concurrency Control/Schedule.md",
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Recoverability.md",
+    "DB/Concurrency Control/2PL Protocol.md",
+    "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/Schedule.md",
     "DB/Concurrency Control/MVCC.md",
     "DB/Transaction.md",
     "DB/Untitled.canvas",
