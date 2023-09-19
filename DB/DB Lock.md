@@ -1,5 +1,7 @@
 ---
-tags: DB Lock
+tags:
+  - DB
+  - Lock
 ---
 여러 트랜잭션들이 동시에 같은 데이터에 접근하는 것을 DB LOCK 이라고 한다.
 
