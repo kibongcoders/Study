@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/트랜잭션 이상 현상.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/트랜잭션 이상 현상.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/트랜잭션 이상 현상.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Isolation Level.md"
+                "file": "DB/트랜잭션 이상 현상.md"
               }
             }
           }
@@ -198,8 +198,8 @@
   },
   "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/트랜잭션 이상 현상.md",
     "DB/Isolation Level.md",
+    "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Transaction.md",

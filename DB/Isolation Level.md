@@ -7,5 +7,11 @@
 | Repeatable Read |X | X | O |
 | Serializable    |X| X | X |
 
-이상한 현상을 허용하는 몇가지 레벨을 만들자
-몇개를 허용하는지에 대해서 레벨이 다르다
+이 내용을 비판하는 내용이 있는데
+standard SQL 92 isolation level에 대한 비판
+
+1. 세가지 이상 현상의 정의가 모호하다.
+2. 이상 현상은 세가지 외에도 더 있다.
+3. 상업적인 DBMS에서 사용하는 방법을 반영해서 isolation level를 구분하지 않았다.
+
+
