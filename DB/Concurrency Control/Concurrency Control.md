@@ -6,4 +6,6 @@ Concurrency Control은 Isolation과 연관이 있고
 너무 엄격하게 Isolation 하게 된다면 성능이 떨어지므로 Isolation의 레벨을 두어서 유연하게 하는 것이
 Isolation Level이라고 한다.
 
+
+
 MVCC

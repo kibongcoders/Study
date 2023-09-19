@@ -59,6 +59,28 @@ NonSerial Schedule로 실행하면
 | | write-lock(y) |
 | |r2(y) |
 | |w2(y) 300|
+| | unlock(y) |
 
 위 과정으로 스케줄이 진행되기 된다. 위 결과로 보면 x=300, y=300인 이상한 결과를 볼 수 있는데
-이 과정에서의 문제점의 이유는 unlock(y) -> read-lock()
+이 과정에서의 문제점의 이유는 unlock(y) -> read-lock(x) -> write-lock(x) 에서 업데이트 되기 전에 x를 읽었기 때문에 발생되는 문제입니다.
+그래서 해당문제를 정상적으로 변경하면
+
+| tx1 | tx2 |
+| --- | --- |
+| read-lock(y) | |
+| r1(y) 200 | |
+| write-lock(x) | |
+| |read-lock(x) |
+| unlock(y) | |
+| r1(x) 100  | |
+| w1(x) 300 |  |
+| unlock(x) | |
+| |r2(x) 300 |
+| | write-lock(y) |
+| | unlock(x) |
+| |r2(y) |
+| |w2(y) 400|
+| | unlock(y) |
+
+해당 방식으로 제대로된 결과를 도출할 수 있습니다.
+이렇게 변경된 결과를 [[2PL Protocol]](2 Phase Protocol)이라고 부릅니다.
