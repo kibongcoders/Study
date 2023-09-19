@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Isolation Level.md"
+                "file": "DB/Concurrency Control/Schedule.md"
               }
             }
           }
@@ -195,11 +195,11 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Conflict.md",
+    "DB/Isolation Level.md",
     "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/Schedule.md",
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Recoverability.md",
-    "DB/Isolation Level.md",
     "DB/Transaction.md",
     "DB/Untitled.canvas",
     "Http/RESTful API.md",
