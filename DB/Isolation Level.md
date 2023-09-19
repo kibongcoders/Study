@@ -14,4 +14,8 @@ standard SQL 92 isolation level에 대한 비판
 2. 이상 현상은 세가지 외에도 더 있다.
 3. 상업적인 DBMS에서 사용하는 방법을 반영해서 isolation level를 구분하지 않았다.
 
+해당 내용을 비판하면서 소개하는 레벨이 SNAPSHOT ISOLATION 이다.
+
+## SNAPSHOT ISOLATION
+Concurrency Control의 구현 방식에 따라서 정의된 레벨이다.
 
