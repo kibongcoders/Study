@@ -1,13 +1,8 @@
-
-
-DB Lock
-
-
-|  | Read-Lock | Write-Lock |
-| --- | --- | --- |
-| Read-Lock | O | X |
-| Write-Lock | X | X |
-
+---
+tags: 2PL Protocol
+---
+2PL Protocol(2Phase Protocol) 은 2개의 단계가 있는 프로토콜이다.
+locking operation 과 unlock operation로 단계를 나누고 트랜잭션에서 모든 locking operation이 unlock operation보다 먼저 수행되도록 하는 것이 
 
 Conservative 2PL
 모든 lock을 취득한 뒤 트랜잭션 시작
