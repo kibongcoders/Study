@@ -43,4 +43,22 @@ read-lock(y), r1(y) , unlock(y), write-lock(x), r1(x), w1(x) => x+y 400, unlock(
 x = 400 y = 300의 결과가 나오게 됩니다.
 
 NonSerial Schedule로 실행하면
-read-lock(x), 
+
+| tx1 | tx2 |
+| --- | --- |
+| read-lock(y) | |
+| r1(y) 200 | |
+| unlock(y) | |
+| |read-lock(x) |
+| write-lock(x) | |
+| | r2(x) 100 |
+| | unlock(x)
+| r1(x) 100  | |
+| w1(x) 300 |  |
+| unlock(x) | |
+| | write-lock(y) |
+| |r2(y) |
+| |w2(y) 300|
+
+위 과정으로 스케줄이 진행되기 된다. 위 결과로 보면 x=300, y=300인 이상한 결과를 볼 수 있는데
+이 과정에서의 문제점의 이유는 unlock(y) -> read-lock()
