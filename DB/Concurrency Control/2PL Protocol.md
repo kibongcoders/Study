@@ -2,12 +2,16 @@
 tags: 2PL Protocol
 ---
 2PL Protocol(2Phase Protocol) 은 2개의 단계가 있는 프로토콜이다.
-locking operation 과 unlock operation로 단계를 나누고 트랜잭션에서 모든 locking operation이 unlock operation보다 먼저 수행되도록 하는 것이 
+locking operation(Expanding phase)과 unlock operation(Shrinking phase)로 단계를 나누고 트랜잭션에서 모든 locking operation이 unlock operation보다 먼저 수행되도록 하는 것을 2PL Protocol이라고 부른다.
 
-Conservative 2PL
+DeadLock 
+2PL을 사용하다보면 Read-lock 
+## 2PL Protocol 종류
+### Conservative 2PL
 모든 lock을 취득한 뒤 트랜잭션 시작
 DeadLock-Free DeadLock 이 발생되지 않음
 실용적이지 않음 -> 모든 락을 못가져오는 경우도 생겨 실용적이지 않음
+
 
 Strict Schedule을 보장하는 2PL
 recoverability 보장
