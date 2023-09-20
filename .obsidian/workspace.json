@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/Recoverability.md",
+                "file": "Http/OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/Recoverability.md",
+                "file": "Http/OAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/Recoverability.md"
+                "file": "Http/OAuth.md"
               }
             }
           }
@@ -206,13 +206,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0d21631d3f7a78d4",
+  "active": "19af793d216e4e7d",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Recoverability.md",
+    "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/MVCC.md",
     "DB/Concurrency Control/Conflict.md",
-    "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
-    "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Transaction.md",
     "DB/Isolation Level.md",
