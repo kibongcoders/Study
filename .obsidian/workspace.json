@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
+                "file": "DB/DB Lock.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
+                "file": "DB/DB Lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
+                "file": "DB/DB Lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/PostgreSQL MVCC.md"
+                "file": "DB/DB Lock.md"
               }
             }
           }
@@ -208,10 +208,10 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
-    "DB/Concurrency Control/Mysql MVCC.md",
-    "DB/Isolation Level.md",
     "DB/트랜잭션 이상 현상.md",
+    "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
+    "DB/Isolation Level.md",
     "DB/Concurrency Control/MVCC.md",
     "DB/Concurrency Control/2PL Protocol.md",
     "DB/Concurrency Control/Conflict.md",
