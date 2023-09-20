@@ -35,9 +35,11 @@
             "id": "32326be67cf32163",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "DB"
+                "file": "DB/DB Lock.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -68,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -144,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DB/트랜잭션 이상 현상.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DB/트랜잭션 이상 현상.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +184,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DB/트랜잭션 이상 현상.md"
+              }
             }
           }
         ]
@@ -202,21 +207,21 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "32326be67cf32163",
+  "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "DB/Isolation Level.md",
+    "DB/DB Lock.md",
+    "DB/트랜잭션 이상 현상.md",
+    "DB/Concurrency Control/Recoverability.md",
+    "DB/Concurrency Control/2PL Protocol.md",
     "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/Schedule.md",
+    "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Concurrency Control/Serializability.md",
     "DB/Concurrency Control/MVCC.md",
-    "DB/Concurrency Control/Recoverability.md",
-    "DB/Concurrency Control/Schedule.md",
-    "DB/Concurrency Control/2PL Protocol.md",
     "Http/OAuth.md",
-    "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Transaction.md",
-    "DB/Isolation Level.md",
-    "DB/Concurrency Control/Mysql MVCC.md",
-    "DB/DB Lock.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
     "Study List.md",
     "Untitled.canvas",
