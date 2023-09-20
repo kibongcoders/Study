@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Http/OAuth.md",
+                "file": "DB/Concurrency Control/Conflict.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Http/OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +160,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Http/OAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,9 +181,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Http/OAuth.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -206,17 +202,19 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "19af793d216e4e7d",
+  "active": "32326be67cf32163",
   "lastOpenFiles": [
-    "DB/Concurrency Control/Recoverability.md",
-    "DB/트랜잭션 이상 현상.md",
-    "DB/Concurrency Control/MVCC.md",
     "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/Serializability.md",
+    "DB/Concurrency Control/MVCC.md",
+    "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
+    "DB/Concurrency Control/2PL Protocol.md",
+    "Http/OAuth.md",
+    "DB/트랜잭션 이상 현상.md",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Transaction.md",
     "DB/Isolation Level.md",
-    "DB/Concurrency Control/2PL Protocol.md",
     "DB/Concurrency Control/Mysql MVCC.md",
     "DB/DB Lock.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
@@ -224,7 +222,6 @@
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "Http/RESTful API.md",
-    "Http/OAuth.md",
     "DB/Concurrency Control.md",
     "DB/Concurrency Control",
     "Http/Image/Pasted image 20230915222259.png",

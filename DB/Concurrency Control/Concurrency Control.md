@@ -1,8 +1,8 @@
 여러개 트랜잭션이 하나의 데이터에 접근할 때 어떻게 무결성과 일관성을 보장하고 성능까지 보장하며 트랜잭션을 제어하는 방법
+Concurrency Control은 [[Serializability]]와 [[Recoverability]]를 제공합니다. 
+이러한 속성들로 동시성을 관리하고 데이터의 일관성을 보장합니다.
 
-## Concurrency Control 동작원리
-동시성 제어의 동작 원리는 [[Schedule]]과 Conflict로 Concurrency Control의 동작의 원리를 알 수 있다.
-일단 무결성과 일관성을 보장하려면 모든 [[Schedule]]이 [[Conflict]] Serializable과 [[Recoverability]]을 제공하는 것이다.
+
 
 Concurrency Control
 Concurrency Control은 Isolation과 연관이 있고
