@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
+                "file": "DB/트랜잭션 이상 현상.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Isolation Level.md",
+                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,16 +206,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "089652ceb5e0332e",
+  "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Isolation Level.md",
     "DB/트랜잭션 이상 현상.md",
-    "DB/Concurrency Control/Conflict.md",
-    "DB/Concurrency Control/2PL Protocol.md",
-    "DB/Concurrency Control/MVCC.md",
-    "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
-    "DB/Concurrency Control/Mysql MVCC.md",
+    "DB/Concurrency Control/MVCC.md",
+    "DB/Concurrency Control/2PL Protocol.md",
+    "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/Recoverability.md",
     "Study List.md",
     "Untitled.canvas",
     "DB/DB Lock.md",
