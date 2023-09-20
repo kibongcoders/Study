@@ -14,6 +14,9 @@ Read Committed : read하는 시간을 기준으로 그 전에 commit된 데이�
 Repeatable Read : tx 시작 시간 기준으로 그 전에 commit된 데이터를 읽는다.
 여기서 tx 시작 시간은 처음 tx 시작할 때 이거나 tx에서 최초의 read가 일어나는 때를 기준으로 삼는다. 이 기준은 각 RDBMS에 따라 다르다.
 
+Serializable 레벨에서는 어떻게 작동할까?
+[[Mysql MVCC]]는 Lock을 기준으로 동작한다.
+PostgreSQL에서는 SSL(Serializable Snapshot Isolation)으로 동작한다.
 
 
 

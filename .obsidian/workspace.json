@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/MVCC.md",
+                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/MVCC.md",
+                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/MVCC.md",
+                "file": "DB/Concurrency Control/PostgreSQL MVCC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/MVCC.md"
+                "file": "DB/Concurrency Control/PostgreSQL MVCC.md"
               }
             }
           }
@@ -208,15 +208,16 @@
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
     "DB/Isolation Level.md",
+    "DB/트랜잭션 이상 현상.md",
+    "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/2PL Protocol.md",
     "DB/Concurrency Control/MVCC.md",
     "DB/Concurrency Control/Recoverability.md",
-    "Untitled.canvas",
-    "Study List.md",
-    "DB/트랜잭션 이상 현상.md",
-    "DB/DB Lock.md",
-    "DB/Concurrency Control/2PL Protocol.md",
-    "DB/Concurrency Control/Conflict.md",
+    "DB/Concurrency Control/PostgreSQL MVCC.md",
     "DB/Concurrency Control/Mysql MVCC.md",
+    "Study List.md",
+    "Untitled.canvas",
+    "DB/DB Lock.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Transaction.md",
     "DB/Untitled.canvas",
