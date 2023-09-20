@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "828274ff2d124c37",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "DB/Concurrency Control"
+              }
+            }
+          },
+          {
             "id": "32326be67cf32163",
             "type": "leaf",
             "state": {
@@ -69,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +154,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +170,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,9 +191,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DB/Transaction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -206,26 +212,26 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0d21631d3f7a78d4",
+  "active": "828274ff2d124c37",
   "lastOpenFiles": [
-    "DB/Concurrency Control/MVCC.md",
-    "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Isolation Level.md",
+    "DB/Concurrency Control/Schedule.md",
+    "DB/Transaction.md",
     "DB/Concurrency Control/2PL Protocol.md",
-    "DB/Concurrency Control/PostgreSQL MVCC.md",
+    "DB/Concurrency Control/Mysql MVCC.md",
+    "DB/Concurrency Control/MVCC.md",
     "DB/DB Lock.md",
     "DB/트랜잭션 이상 현상.md",
+    "DB/Concurrency Control/PostgreSQL MVCC.md",
+    "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Recoverability.md",
     "Study List.md",
     "Untitled.canvas",
-    "DB/Concurrency Control/Schedule.md",
-    "DB/Transaction.md",
     "DB/Untitled.canvas",
     "Http/RESTful API.md",
     "Http/OAuth.md",
     "DB/Concurrency Control.md",
-    "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control",
     "Http/Image/Pasted image 20230915222259.png",
     "Http/Image/Pasted image 20230915222326.png",
