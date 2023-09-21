@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/Serializability.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/Serializability.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/Serializability.md",
+                "file": "DB/Concurrency Control/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/Serializability.md"
+                "file": "DB/Concurrency Control/Schedule.md"
               }
             }
           }
@@ -209,10 +209,10 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Serializability.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Concurrency Control.md",
-    "DB/Concurrency Control/Serializability.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
     "DB/Concurrency Control/2PL Protocol.md",
     "DB/Concurrency Control/Recoverability.md",
