@@ -11,11 +11,9 @@
             "id": "089652ceb5e0332e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "알고리즘/코딩인터뷰.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Java"
               }
             }
           },
@@ -130,7 +128,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "알고리즘/코딩인터뷰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +144,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "알고리즘/코딩인터뷰.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +165,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "알고리즘/코딩인터뷰.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -194,6 +188,7 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "Java/Java.md",
     "알고리즘/코딩인터뷰.md",
     "Java",
     "Todo/2023-09-22.md",
@@ -230,7 +225,6 @@
     "Http/Image/무제 2.jpg",
     "Http/Image/Image.md",
     "Http/Image",
-    "Http/Untitled.md",
     "DB",
     "Http",
     ".md",
