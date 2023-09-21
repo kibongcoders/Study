@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/Concurrency Control/Conflict.md",
+                "file": "Todo/2023-09-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/Concurrency Control/Conflict.md",
+                "file": "Todo/2023-09-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/Concurrency Control/Conflict.md",
+                "file": "Todo/2023-09-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/Concurrency Control/Conflict.md"
+                "file": "Todo/2023-09-22.md"
               }
             }
           }
@@ -209,9 +209,16 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "Todo/2023-09-22.md",
+    "Todo/Todo.md",
+    "Todo",
+    "Untitled.md",
+    "Study List.md",
+    "알고리즘/알고리즘.md",
+    "알고리즘",
+    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Schedule.md",
     "DB/Concurrency Control/Serializability.md",
-    "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
     "DB/Concurrency Control/2PL Protocol.md",
@@ -226,7 +233,6 @@
     "DB/Concurrency Control/MVCC.md",
     "Http/OAuth.md",
     "DB/Transaction.md",
-    "Study List.md",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "Http/RESTful API.md",
@@ -240,10 +246,6 @@
     "Http/Untitled.md",
     "DB/DB.md",
     "DB",
-    "Http/JWT.md",
-    "Http/Http.md",
-    "Http/API.md",
-    "Untitled.md",
     "Http",
     ".md",
     "Context/spacesLastSync.log",

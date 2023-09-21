@@ -1,5 +1,5 @@
 - [x] [[RESTful API]] 진행중
 - [x] 트랜잭선
-- [ ] [[MVCC]] 정리
-- [ ] [[Mysql MVCC]] 공부
+- [x] [[MVCC]] 정리
+- [x] [[Mysql MVCC]] 공부
 - [ ] 

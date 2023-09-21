@@ -40,9 +40,12 @@
       "Http/Image",
       "Http/Image",
       "DB/Index",
-      "DB",
       "DB/Concurrency Control",
-      "DB/Concurrency Control"
+      "DB/Concurrency Control",
+      "알고리즘",
+      "Todo",
+      "Todo",
+      "Todo"
     ]
   },
   "expandedSpaces": [
@@ -80,7 +83,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1695276774677,
+  "spacesAutoBackupLast": 1695309729852,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
