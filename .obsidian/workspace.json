@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Todo/2023-09-22.md",
+                "file": "알고리즘/코딩인터뷰.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,21 +52,6 @@
                 "file": "DB/Concurrency Control/Conflict.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6fbfc54942b1dd3d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -230,
-                  "y": -947.9818542480468,
-                  "zoom": 0
-                }
               }
             }
           }
@@ -145,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo/2023-09-22.md",
+                "file": "알고리즘/코딩인터뷰.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo/2023-09-22.md",
+                "file": "알고리즘/코딩인터뷰.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo/2023-09-22.md"
+                "file": "알고리즘/코딩인터뷰.md"
               }
             }
           }
@@ -209,6 +194,8 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "알고리즘/코딩인터뷰.md",
+    "Java",
     "Todo/2023-09-22.md",
     "Todo/Todo.md",
     "Todo",
@@ -244,11 +231,9 @@
     "Http/Image/Image.md",
     "Http/Image",
     "Http/Untitled.md",
-    "DB/DB.md",
     "DB",
     "Http",
     ".md",
-    "Context/spacesLastSync.log",
-    "Context"
+    "Context/spacesLastSync.log"
   ]
 }

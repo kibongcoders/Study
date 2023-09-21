@@ -45,7 +45,8 @@
       "알고리즘",
       "Todo",
       "Todo",
-      "Todo"
+      "Todo",
+      "알고리즘"
     ]
   },
   "expandedSpaces": [
@@ -83,7 +84,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1695309729852,
+  "spacesAutoBackupLast": 1695312989214,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
