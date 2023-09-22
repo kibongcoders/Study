@@ -50,6 +50,7 @@
       "Java",
       "Java",
       "Http",
+      "Java",
       "Java"
     ]
   },
@@ -88,7 +89,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1695313324178,
+  "spacesAutoBackupLast": 1695356998803,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
