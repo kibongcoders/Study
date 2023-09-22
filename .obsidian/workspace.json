@@ -194,8 +194,9 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
-    "Java/제네릭.md",
     "Java/접근 제어자.md",
+    "Java/제네릭.md",
+    "Java/자바 동작 방식.md",
     "Todo/2023-09-22.md",
     "Http/RESTful API.md",
     "Http/API.md",
@@ -224,7 +225,6 @@
     "DB/DB Lock.md",
     "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Concurrency Control/MVCC.md",
-    "Http/OAuth.md",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "DB/Concurrency Control",
