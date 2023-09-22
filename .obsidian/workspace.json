@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/접근 제어자.md",
+                "file": "Java/제네릭.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/접근 제어자.md",
+                "file": "Java/제네릭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/접근 제어자.md",
+                "file": "Java/제네릭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/접근 제어자.md"
+                "file": "Java/제네릭.md"
               }
             }
           }
@@ -194,8 +194,9 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
-    "Todo/2023-09-22.md",
+    "Java/제네릭.md",
     "Java/접근 제어자.md",
+    "Todo/2023-09-22.md",
     "Http/RESTful API.md",
     "Http/API.md",
     "Study List.md",
@@ -224,7 +225,6 @@
     "DB/Concurrency Control/Mysql MVCC.md",
     "DB/Concurrency Control/MVCC.md",
     "Http/OAuth.md",
-    "DB/Transaction.md",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "DB/Concurrency Control",
