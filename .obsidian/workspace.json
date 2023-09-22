@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/제네릭.md",
+                "file": "Java/자바 동작 방식.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/제네릭.md",
+                "file": "Java/자바 동작 방식.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/제네릭.md",
+                "file": "Java/자바 동작 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/제네릭.md"
+                "file": "Java/자바 동작 방식.md"
               }
             }
           }
@@ -194,8 +194,8 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
-    "Java/접근 제어자.md",
     "Java/제네릭.md",
+    "Java/접근 제어자.md",
     "Java/자바 동작 방식.md",
     "Todo/2023-09-22.md",
     "Http/RESTful API.md",
