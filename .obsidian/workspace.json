@@ -11,9 +11,11 @@
             "id": "089652ceb5e0332e",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Java"
+                "file": "Java/접근 제어자.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -128,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/접근 제어자.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/접근 제어자.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/접근 제어자.md"
+              }
             }
           }
         ]
@@ -188,11 +194,11 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
-    "Java/접근제어자.md",
+    "Todo/2023-09-22.md",
+    "Java/접근 제어자.md",
     "Http/RESTful API.md",
     "Http/API.md",
     "Study List.md",
-    "Todo/2023-09-22.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
     "Http/Image/Pasted image 20230915222259.png",
