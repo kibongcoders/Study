@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSA/Cloud Native Application.md",
+                "file": "MSA/12 Factors.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSA/Cloud Native Application.md",
+                "file": "MSA/12 Factors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSA/Cloud Native Application.md",
+                "file": "MSA/12 Factors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSA/Cloud Native Application.md"
+                "file": "MSA/12 Factors.md"
               }
             }
           }
@@ -195,6 +195,7 @@
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
     "MSA/Cloud Native Application.md",
+    "MSA/12 Factors.md",
     "MSA/Spring Cloud/Untitled.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/Antifragile.md",
@@ -226,7 +227,6 @@
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
     "DB/Concurrency Control/2PL Protocol.md",
-    "DB/Index/Index.md",
     "DB/Index",
     "Untitled.canvas",
     "DB/Untitled.canvas",
