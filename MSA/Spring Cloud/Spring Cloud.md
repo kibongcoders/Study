@@ -1,3 +1,5 @@
 Microservice
 
 CloudNative
+
+Auto scaling
