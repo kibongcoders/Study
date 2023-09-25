@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSA/Antifragile.md",
+                "file": "MSA/Cloud Native Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSA/Antifragile.md",
+                "file": "MSA/Cloud Native Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSA/Antifragile.md",
+                "file": "MSA/Cloud Native Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSA/Antifragile.md"
+                "file": "MSA/Cloud Native Architecture.md"
               }
             }
           }
@@ -194,6 +194,7 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "MSA/Cloud Native Architecture.md",
     "MSA/Antifragile.md",
     "MSA/Spring Cloud/Spring Cloud.md",
     "MSA/Spring Cloud",
@@ -227,7 +228,6 @@
     "DB/Isolation Level.md",
     "DB/트랜잭션 이상 현상.md",
     "DB/Index",
-    "DB/Untitled.md",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "DB/Concurrency Control",
