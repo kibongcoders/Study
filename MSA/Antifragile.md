@@ -3,6 +3,5 @@ Antifragile
 탄력적으로 운영할 수 있도록 구축되었습니다.
 Cloud Native 아키텍쳐로 전환되던 시전
 
-Antifragile
-
-Microservice
+Antifragile 특징
+Auto Sca

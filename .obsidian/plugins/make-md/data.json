@@ -48,7 +48,9 @@
       "MSA/Spring Cloud",
       "MSA/Spring Cloud",
       "MSA",
-      "MSA/Spring Cloud"
+      "MSA/Spring Cloud",
+      "MSA",
+      "MSA"
     ]
   },
   "expandedSpaces": [
@@ -86,7 +88,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1695625674400,
+  "spacesAutoBackupLast": 1695635357232,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
