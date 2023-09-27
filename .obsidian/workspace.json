@@ -188,6 +188,7 @@
   },
   "active": "089652ceb5e0332e",
   "lastOpenFiles": [
+    "README.md",
     "MSA/Cloud Native Application.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/12 Factors.md",
@@ -220,7 +221,6 @@
     "DB/Concurrency Control/Serializability.md",
     "DB/Concurrency Control/Concurrency Control.md",
     "DB/Concurrency Control/PostgreSQL MVCC.md",
-    "DB/Concurrency Control/2PL Protocol.md",
     "DB/Index",
     "Untitled.canvas",
     "DB/Untitled.canvas",
