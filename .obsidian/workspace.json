@@ -23,7 +23,7 @@
             "state": {
               "type": "make-folder-view",
               "state": {
-                "contextPath": "AWS"
+                "contextPath": "AWS/VPC"
               }
             }
           },
@@ -199,6 +199,8 @@
   },
   "active": "2b1cbf3d5baa41cf",
   "lastOpenFiles": [
+    "AWS/VPC/VPC.md",
+    "AWS/VPC",
     "AWS/AWS.md",
     "AWS",
     "Untitled.md",
@@ -232,14 +234,12 @@
     "알고리즘/알고리즘.md",
     "알고리즘",
     "DB/Concurrency Control/Conflict.md",
-    "DB/Concurrency Control/Serializability.md",
     "DB/Index",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "DB/Concurrency Control",
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg",
-    "Http/Image",
-    "DB"
+    "Http/Image"
   ]
 }

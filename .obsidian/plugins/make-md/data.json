@@ -42,15 +42,12 @@
       "Todo",
       "Todo",
       "Todo",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
-      "MSA/Spring Cloud",
       "AWS",
-      "AWS"
+      "AWS",
+      "MSA",
+      "MSA",
+      "AWS",
+      "AWS/VPC"
     ]
   },
   "expandedSpaces": [
@@ -88,7 +85,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697177778235,
+  "spacesAutoBackupLast": 1697180401719,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
