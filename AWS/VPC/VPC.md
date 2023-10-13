@@ -5,10 +5,16 @@ Virtual Private Cloud 사용자의 AWS 계정 전용 가상 네트워크
 
 VPC 구성요소
 서브넷 
+VPC 하위 단위 VPC에 할당된 IP를 더 작은 단위로 분할한 개념
+하나의 서브넷은 하나의 가용영역안에 위치
+CIDR block range로 IP 주소 지정
+
+라우트 테이블
+어디로 가야하는지 알려주는 이정표
+
 인터넷 게이트워이
 NACL
-라우트 테이블
-NAT ㄱ셍
+NAT 게이트웨이
 
 
 public 인터넷을 이용해서 사용하게 된다.
