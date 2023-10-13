@@ -18,6 +18,16 @@
             }
           },
           {
+            "id": "2b1cbf3d5baa41cf",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "AWS"
+              }
+            }
+          },
+          {
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
@@ -53,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,13 +197,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "089652ceb5e0332e",
+  "active": "2b1cbf3d5baa41cf",
   "lastOpenFiles": [
+    "AWS/AWS.md",
+    "AWS",
+    "Untitled.md",
+    "MSA/Spring Cloud/Untitled.md",
     "README.md",
     "MSA/Cloud Native Application.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/12 Factors.md",
-    "MSA/Spring Cloud/Untitled.md",
     "MSA/Antifragile.md",
     "MSA/Spring Cloud/Spring Cloud.md",
     "MSA/Spring Cloud",
@@ -219,8 +233,6 @@
     "알고리즘",
     "DB/Concurrency Control/Conflict.md",
     "DB/Concurrency Control/Serializability.md",
-    "DB/Concurrency Control/Concurrency Control.md",
-    "DB/Concurrency Control/PostgreSQL MVCC.md",
     "DB/Index",
     "Untitled.canvas",
     "DB/Untitled.canvas",
@@ -228,7 +240,6 @@
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg",
     "Http/Image",
-    "DB",
-    "Http"
+    "DB"
   ]
 }
