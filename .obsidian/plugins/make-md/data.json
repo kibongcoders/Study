@@ -47,7 +47,9 @@
       "MSA",
       "MSA",
       "AWS",
-      "AWS/VPC"
+      "AWS/VPC",
+      "Todo",
+      "Todo"
     ]
   },
   "expandedSpaces": [

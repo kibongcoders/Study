@@ -23,7 +23,7 @@
             "state": {
               "type": "make-folder-view",
               "state": {
-                "contextPath": "AWS/VPC"
+                "contextPath": "Todo"
               }
             }
           },
@@ -197,8 +197,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "2b1cbf3d5baa41cf",
+  "active": "f7210660fca8f903",
   "lastOpenFiles": [
+    "Todo/2023-09-22.md",
     "AWS/VPC/VPC.md",
     "AWS/VPC",
     "AWS/AWS.md",
@@ -220,7 +221,6 @@
     "Java/자바 동작 방식.md",
     "Java/제네릭.md",
     "Java/접근 제어자.md",
-    "Todo/2023-09-22.md",
     "Http/RESTful API.md",
     "Http/API.md",
     "DB/Concurrency Control/Recoverability.md",
