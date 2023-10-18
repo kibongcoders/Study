@@ -62,9 +62,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "11281dacb9ec25e9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -197,7 +207,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f7210660fca8f903",
+  "active": "11281dacb9ec25e9",
   "lastOpenFiles": [
     "Todo/2023-09-22.md",
     "AWS/VPC/VPC.md",
