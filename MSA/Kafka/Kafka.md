@@ -23,7 +23,22 @@ Producer, Kafka Broker, Consumer
 Producer : Broker에 데이터를 보내는 역활
 Consumer  : Broker에 적재 되어 있는 데이터를 가져오는 역활
 
-데이터가 전달되고 적재 되는 과정에서 정상적으로 수행이 되고 이
+데이터가 전달되고 적재 되는 과정에서 정상적으로 수행이 되고 있는지를 알기 위해
+Producer는 Acknowledgement Consumer는 Offset commit으로 확인 하게된다.
+
+데이터를 담는 Topic, Partition, Offset으로 잘 처리 되었는지 확인한다.
+
+네트워크 장애로 Acknowledgement 장애가 있는 경우 다시 보내게 된다.
+이과정에서 중복된 데이터가 적재될 수 있으므로 카프카는  중복된 적재를 막기 위해멱등성 프로듀서를 사용하게 된다.
+
+멱등성 프로듀서(Idempotence Producer)
+카프카 3.0부터는 기본적으로 true로 사용하게 된다.
+멱등성 프로듀서는 기본적인 프로듀서와 다르게 레코드를 브로커로 전송할 때 PID(Producer unique Id)와 SEQ(Sequence Number)를 전송하게 된다.
+
+브로커는 PID와 SEQ를 가지고 있다가 중복 적재 요청이 오면 이후에 요청된 중복 레코드는 적재하지 않는다.
+
+비동기 프로듀서로 작업해야 제대로 이 멱등성 프로듀서를 사용할 수 있다.
+
 
 
 카프카 메세지를 신뢰성 있게 전달 하려면
