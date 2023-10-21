@@ -38,6 +38,11 @@ Producer는 Acknowledgement Consumer는 Offset commit으로 확인 하게된다.
 브로커는 PID와 SEQ를 가지고 있다가 중복 적재 요청이 오면 이후에 요청된 중복 레코드는 적재하지 않는다.
 
 비동기 프로듀서로 작업해야 제대로 이 멱등성 프로듀서를 사용할 수 있다.
+Producer가 Broker에 데이터를 보낼 때 PID와 SEQ가 함께 가게 되는데 이를 통해 중복을 피하게 된다.
+
+Topic to Topic
+변경이 되지 않고 계속 추가되는 데이터
+지속적으로 
 
 
 
