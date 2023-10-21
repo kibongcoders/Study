@@ -55,6 +55,7 @@
       "MSA/Kafka",
       "MSA/Kafka",
       "MSA/Kafka",
+      "Todo",
       "Todo"
     ]
   },
@@ -93,7 +94,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697875012060,
+  "spacesAutoBackupLast": 1697875404276,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
