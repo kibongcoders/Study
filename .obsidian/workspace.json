@@ -67,9 +67,11 @@
             "id": "11281dacb9ec25e9",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "MSA/Kafka"
+                "file": "Todo/2023-10-21.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -149,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Todo/2023-10-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Todo/2023-10-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Todo/2023-10-21.md"
+              }
             }
           }
         ]
@@ -209,10 +215,13 @@
   },
   "active": "11281dacb9ec25e9",
   "lastOpenFiles": [
+    "Todo/2023-09-22.md",
+    "Todo/2023-10-21.md",
+    "2023-10-21.md",
+    "Todo/Untitled.md",
     "MSA/Kafka/Kafka.md",
     "MSA/Kafka",
     "알고리즘/코딩인터뷰.md",
-    "Todo/2023-09-22.md",
     "AWS/VPC/VPC.md",
     "AWS/VPC",
     "AWS/AWS.md",
@@ -239,11 +248,8 @@
     "DB/Concurrency Control/Recoverability.md",
     "DB/Concurrency Control/Schedule.md",
     "Http/Image/Pasted image 20230915222259.png",
-    "Java/Java.md",
     "Java",
-    "Todo/Todo.md",
     "Todo",
-    "알고리즘/알고리즘.md",
     "알고리즘",
     "DB/Index",
     "Untitled.canvas",
