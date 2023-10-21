@@ -57,7 +57,8 @@
       "MSA/Kafka",
       "MSA/Kafka",
       "MSA",
-      "AWS"
+      "AWS",
+      "MSA/Kafka"
     ]
   },
   "expandedSpaces": [
