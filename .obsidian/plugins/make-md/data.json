@@ -45,18 +45,19 @@
       "AWS",
       "AWS",
       "AWS",
-      "AWS/VPC",
       "Todo",
       "Todo",
       "알고리즘",
-      "MSA",
-      "MSA",
       "MSA/Kafka",
       "MSA/Kafka",
       "MSA/Kafka",
       "MSA/Kafka",
       "Todo",
-      "Todo"
+      "Todo",
+      "MSA/Kafka",
+      "MSA/Kafka",
+      "MSA",
+      "AWS"
     ]
   },
   "expandedSpaces": [
@@ -94,7 +95,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1697875404276,
+  "spacesAutoBackupLast": 1697875996172,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
