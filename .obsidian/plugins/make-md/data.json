@@ -64,6 +64,7 @@
       "AWS/ELB",
       "AWS/Container Service",
       "AWS/Container Service",
+      "AWS/Container Service",
       "AWS/Container Service"
     ]
   },
@@ -102,7 +103,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698306105219,
+  "spacesAutoBackupLast": 1698331840872,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
