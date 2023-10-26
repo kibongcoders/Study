@@ -67,9 +67,11 @@
             "id": "11281dacb9ec25e9",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "MSA/Kafka"
+                "file": "AWS/Container Service/ECS.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -149,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS/Container Service/ECS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AWS/Container Service/ECS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AWS/Container Service/ECS.md"
+              }
             }
           }
         ]
@@ -209,6 +215,13 @@
   },
   "active": "11281dacb9ec25e9",
   "lastOpenFiles": [
+    "AWS/Container Service/EKS.md",
+    "AWS/Container Service/ECS.md",
+    "AWS/ELB/ELB.md",
+    "AWS/AWS.md",
+    "AWS/Container Service/Container Service.md",
+    "AWS/Container Service",
+    "AWS/Untitled.md",
     "AWS/ELB",
     "Todo/2023-10-21.md",
     "Todo/2023-09-22.md",
@@ -219,7 +232,6 @@
     "알고리즘/코딩인터뷰.md",
     "AWS/VPC/VPC.md",
     "AWS/VPC",
-    "AWS/AWS.md",
     "AWS",
     "Untitled.md",
     "MSA/Spring Cloud/Untitled.md",
@@ -237,18 +249,12 @@
     "Spring Cloud.md",
     "Java/자바 동작 방식.md",
     "Java/제네릭.md",
-    "Java/접근 제어자.md",
-    "Http/RESTful API.md",
-    "Http/API.md",
-    "DB/Concurrency Control/Recoverability.md",
     "Http/Image/Pasted image 20230915222259.png",
     "Java",
     "Todo",
     "알고리즘",
-    "DB/Index",
     "Untitled.canvas",
     "DB/Untitled.canvas",
-    "DB/Concurrency Control",
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg"
   ]
