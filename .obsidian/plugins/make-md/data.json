@@ -65,6 +65,7 @@
       "AWS/Container Service",
       "Todo",
       "JPA",
+      "Http",
       "Http"
     ]
   },
@@ -103,7 +104,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698368646456,
+  "spacesAutoBackupLast": 1698370346745,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
