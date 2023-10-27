@@ -64,7 +64,8 @@
       "AWS/Container Service",
       "AWS/Container Service",
       "Todo",
-      "JPA"
+      "JPA",
+      "Http"
     ]
   },
   "expandedSpaces": [
