@@ -67,11 +67,9 @@
             "id": "11281dacb9ec25e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "AWS/Container Service/Lambda.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "JPA"
               }
             }
           }
@@ -151,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/Container Service/Lambda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/Container Service/Lambda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,9 +186,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AWS/Container Service/Lambda.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -215,6 +209,8 @@
   },
   "active": "11281dacb9ec25e9",
   "lastOpenFiles": [
+    "JPA/JPA.md",
+    "JPA",
     "AWS/Container Service/Lambda.md",
     "AWS/Container Service/ECS.md",
     "AWS/Container Service/EKS.md",
@@ -248,11 +244,9 @@
     "MSA",
     "Study List.md",
     "Spring Cloud.md",
-    "Java/자바 동작 방식.md",
     "Http/Image/Pasted image 20230915222259.png",
     "Java",
     "Todo",
-    "알고리즘",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "Http/Image/Pasted image 20230915222326.png",
