@@ -65,11 +65,10 @@
       "AWS/Container Service",
       "Todo",
       "JPA",
-      "Http",
-      "Http",
-      "Http/Image",
       "MSA",
-      "MSA/Kafka"
+      "MSA/Kafka",
+      "Java",
+      "MSA/Kubernetes"
     ]
   },
   "expandedSpaces": [
@@ -107,7 +106,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1698370346745,
+  "spacesAutoBackupLast": 1699360559828,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

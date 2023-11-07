@@ -3,4 +3,5 @@
 - [x] [[MVCC]] 정리
 - [x] [[Mysql MVCC]] 공부
 - [] MSA
-- [ ] Spring Cloud
+- [ ] [[Spring Cloud]] 
+- [ ] Kubernetes

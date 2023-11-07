@@ -69,7 +69,7 @@
             "state": {
               "type": "make-folder-view",
               "state": {
-                "contextPath": "MSA/Kafka"
+                "contextPath": "MSA/Kubernetes"
               }
             }
           }
@@ -209,6 +209,9 @@
   },
   "active": "11281dacb9ec25e9",
   "lastOpenFiles": [
+    "MSA/Kubernetes/Kubernetes.md",
+    "MSA/Untitled.md",
+    "MSA/Kubernetes",
     "Study List.md",
     "Http/RESTful API.md",
     "Http/OAuth.md",
@@ -239,14 +242,11 @@
     "AWS/VPC",
     "AWS",
     "Untitled.md",
-    "MSA/Spring Cloud/Untitled.md",
-    "MSA/Cloud Native Application.md",
     "MSA/Spring Cloud",
     "MSA/Untitled.canvas",
     "MSA",
     "Http/Image/Pasted image 20230915222259.png",
     "Java",
-    "Todo",
     "Untitled.canvas",
     "DB/Untitled.canvas",
     "Http/Image/Pasted image 20230915222326.png",
