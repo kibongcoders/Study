@@ -55,9 +55,11 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "MSA/Kubernetes"
+                "file": "Docker/Container.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -137,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker/Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Docker/Container.md"
+              }
             }
           }
         ]
@@ -197,6 +203,12 @@
   },
   "active": "19af793d216e4e7d",
   "lastOpenFiles": [
+    "Docker/Container.md",
+    "Docker/Kubernetes/Kubernetes.md",
+    "Docker/Kubernetes",
+    "Study List.md",
+    "Docker/Docker.md",
+    "Docker",
     "Java/자바 동작 방식.md",
     "DB/Concurrency Control/Conflict.md",
     "Untitled.canvas",
@@ -204,7 +216,6 @@
     "MSA/Kubernetes/Kubernetes.md",
     "MSA/Untitled.md",
     "MSA/Kubernetes",
-    "Study List.md",
     "Http/RESTful API.md",
     "Http/OAuth.md",
     "Http/JWT.md",
@@ -225,17 +236,12 @@
     "AWS/Untitled.md",
     "AWS/ELB",
     "Todo/2023-10-21.md",
-    "Todo/2023-09-22.md",
-    "2023-10-21.md",
-    "Todo/Untitled.md",
     "MSA/Kafka",
     "AWS/VPC",
     "AWS",
     "MSA/Spring Cloud",
     "MSA/Untitled.canvas",
-    "MSA",
     "Http/Image/Pasted image 20230915222259.png",
-    "Java",
     "DB/Untitled.canvas",
     "Http/Image/Pasted image 20230915222326.png",
     "Http/Image/무제 2.jpg"
