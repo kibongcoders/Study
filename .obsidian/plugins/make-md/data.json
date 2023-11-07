@@ -68,6 +68,12 @@
       "MSA",
       "MSA/Kafka",
       "Java",
+      "MSA/Kubernetes",
+      "MSA/Kubernetes",
+      "MSA/Kafka",
+      "MSA/Kubernetes",
+      "MSA/Kubernetes",
+      "MSA/Kubernetes",
       "MSA/Kubernetes"
     ]
   },
@@ -106,7 +112,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699360559828,
+  "spacesAutoBackupLast": 1699361531214,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
