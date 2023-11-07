@@ -55,11 +55,9 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Docker/Container.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Docker/Kubernetes"
               }
             }
           }
@@ -139,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Container.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +153,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Container.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,9 +174,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docker/Container.md"
-              }
+              "state": {}
             }
           }
         ]
