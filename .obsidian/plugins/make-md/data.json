@@ -87,7 +87,9 @@
       "알고리즘",
       "Docker",
       "Docker/Kubernetes",
-      "Docker/Kubernetes"
+      "Docker/Kubernetes",
+      "알고리즘",
+      "알고리즘"
     ]
   },
   "expandedSpaces": [
@@ -125,7 +127,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699362162754,
+  "spacesAutoBackupLast": 1699419586706,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
