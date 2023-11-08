@@ -57,7 +57,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/ELB/GLB.md",
+                "file": "AWS/ELB/ALB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "354b04186d083320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS/Container Service/Lambda.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/ELB/GLB.md",
+                "file": "AWS/ELB/ALB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/ELB/GLB.md",
+                "file": "AWS/ELB/ALB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS/ELB/GLB.md"
+                "file": "AWS/ELB/ALB.md"
               }
             }
           }
@@ -203,11 +215,12 @@
   },
   "active": "19af793d216e4e7d",
   "lastOpenFiles": [
-    "AWS/ELB/CLB.md",
-    "AWS/ELB/GLB.md",
-    "AWS/ELB/ALB.md",
-    "AWS/ELB/NLB.md",
     "AWS/Container Service/Lambda.md",
+    "AWS/ELB/ALB.md",
+    "AWS/ELB/GLB.md",
+    "GLB.drawio.png",
+    "AWS/ELB/CLB.md",
+    "AWS/ELB/NLB.md",
     "알고리즘/Big O.md",
     "알고리즘/코딩인터뷰.md",
     "Docker/Container.md",
@@ -233,7 +246,6 @@
     "JPA/JPA.md",
     "JPA",
     "AWS/Container Service/ECS.md",
-    "AWS/Container Service/EKS.md",
     "AWS/Container Service",
     "AWS/ELB",
     "MSA/Kafka",
