@@ -57,7 +57,6 @@
       "AWS/Container Service",
       "AWS/Container Service",
       "AWS/Container Service",
-      "AWS/ELB",
       "AWS/Container Service",
       "AWS/Container Service",
       "AWS/Container Service",
@@ -89,7 +88,9 @@
       "Docker/Kubernetes",
       "Docker/Kubernetes",
       "알고리즘",
-      "알고리즘"
+      "알고리즘",
+      "AWS",
+      "AWS/ELB"
     ]
   },
   "expandedSpaces": [
