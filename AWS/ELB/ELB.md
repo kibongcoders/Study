@@ -11,4 +11,8 @@ Health Check: 직접 트래픽을 발생시켜 인스턴스가 살아있는지 �
 
 ## ELB 종류
 
+- [[ALB]](Application Load Balancer)
+- [[NLB]](Network Load Balancer)
+- CLB(Classic Load Balancer)
+- GLB(Gateway Load Balancer)
 

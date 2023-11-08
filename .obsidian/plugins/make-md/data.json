@@ -93,6 +93,7 @@
       "AWS/ELB",
       "AWS/ELB",
       "AWS/ELB",
+      "DB",
       "AWS/ELB"
     ]
   },
@@ -131,7 +132,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699419586706,
+  "spacesAutoBackupLast": 1699440670964,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

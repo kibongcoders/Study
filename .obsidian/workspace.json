@@ -55,9 +55,11 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "AWS/ELB"
+                "file": "AWS/ELB/GLB.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -137,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AWS/ELB/GLB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,6 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AWS/ELB/GLB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +178,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AWS/ELB/GLB.md"
+              }
             }
           }
         ]
@@ -197,6 +203,10 @@
   },
   "active": "19af793d216e4e7d",
   "lastOpenFiles": [
+    "AWS/ELB/CLB.md",
+    "AWS/ELB/GLB.md",
+    "AWS/ELB/ALB.md",
+    "AWS/ELB/NLB.md",
     "AWS/Container Service/Lambda.md",
     "알고리즘/Big O.md",
     "알고리즘/코딩인터뷰.md",
@@ -224,11 +234,7 @@
     "JPA",
     "AWS/Container Service/ECS.md",
     "AWS/Container Service/EKS.md",
-    "AWS/ELB/ELB.md",
-    "AWS/AWS.md",
-    "AWS/Container Service/Container Service.md",
     "AWS/Container Service",
-    "AWS/Untitled.md",
     "AWS/ELB",
     "MSA/Kafka",
     "AWS/VPC",
