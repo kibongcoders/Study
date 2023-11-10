@@ -75,11 +75,9 @@
             "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Kafka/페이지 캐시.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Kafka"
               }
             }
           },
@@ -171,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/페이지 캐시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/페이지 캐시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kafka/페이지 캐시.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -235,9 +229,9 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
-    "Kafka/로그 세그먼트.md",
     "Kafka/데이터 레이크 아키텍처.md",
     "Kafka/페이지 캐시.md",
+    "Kafka/로그 세그먼트.md",
     "MSA/Untitled.md",
     "스크린샷 2023-11-10 오후 8.49.22.png",
     "스크린샷 2023-11-10 오후 8.46.59.png",
