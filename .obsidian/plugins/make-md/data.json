@@ -47,17 +47,16 @@
       "Docker/Kubernetes",
       "MSA/Kubernetes",
       "Docker/Kubernetes",
-      "JPA",
       "Docker/Kubernetes",
       "Docker/Kubernetes",
-      "AWS",
-      "DB",
       "DB/Index",
       "AWS/ELB",
       "Docker/Kubernetes",
+      "Kafka",
+      "Todo",
       "MSA",
-      "MSA/Kafka",
-      "MSA/Kafka"
+      "Java",
+      "JPA"
     ]
   },
   "expandedSpaces": [
@@ -95,7 +94,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699607706786,
+  "spacesAutoBackupLast": 1699616965036,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
