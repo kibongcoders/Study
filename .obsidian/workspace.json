@@ -55,11 +55,9 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "AWS/ELB/ALB.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "MSA/Kafka"
               }
             }
           },
@@ -151,7 +149,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS/ELB/ALB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +165,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS/ELB/ALB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,9 +186,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AWS/ELB/ALB.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -215,13 +209,16 @@
   },
   "active": "19af793d216e4e7d",
   "lastOpenFiles": [
-    "Http/Http.md",
-    "AWS/ELB/ALB.md",
-    "AWS/Container Service/Lambda.md",
+    "MSA/MSA.md",
+    "GLB.drawio.png.md",
     "AWS/ELB/GLB.md",
     "GLB.drawio.png",
-    "AWS/ELB/CLB.md",
+    "AWS/Container Service/ECS.md",
     "AWS/ELB/NLB.md",
+    "AWS/ELB/CLB.md",
+    "AWS/ELB/ALB.md",
+    "Http/Http.md",
+    "AWS/Container Service/Lambda.md",
     "알고리즘/Big O.md",
     "알고리즘/코딩인터뷰.md",
     "Docker/Container.md",
@@ -243,10 +240,7 @@
     "Http/Untitled.md",
     "Http/HTTPS.md",
     "README.md",
-    "Http/API.md",
-    "JPA/JPA.md",
     "JPA",
-    "AWS/Container Service/ECS.md",
     "AWS/Container Service",
     "AWS/ELB",
     "MSA/Kafka",
