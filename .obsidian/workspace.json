@@ -55,9 +55,11 @@
             "id": "19af793d216e4e7d",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "MSA/Kafka"
+                "file": "MSA/Kafka/데이터 레이크 아키텍처.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -149,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MSA/Kafka/데이터 레이크 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,6 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MSA/Kafka/데이터 레이크 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MSA/Kafka/데이터 레이크 아키텍처.md"
+              }
             }
           }
         ]
@@ -209,6 +215,8 @@
   },
   "active": "19af793d216e4e7d",
   "lastOpenFiles": [
+    "스크린샷 2023-11-10 오후 6.10.50.png",
+    "MSA/Kafka/데이터 레이크 아키텍처.md",
     "MSA/MSA.md",
     "GLB.drawio.png.md",
     "AWS/ELB/GLB.md",
@@ -238,8 +246,6 @@
     "Http/OAuth.md",
     "Http/JWT.md",
     "Http/Untitled.md",
-    "Http/HTTPS.md",
-    "README.md",
     "JPA",
     "AWS/Container Service",
     "AWS/ELB",
