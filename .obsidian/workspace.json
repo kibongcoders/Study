@@ -72,6 +72,16 @@
             }
           },
           {
+            "id": "aae9560522e19eb5",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "Kafka"
+              }
+            }
+          },
+          {
             "id": "354b04186d083320",
             "type": "leaf",
             "state": {
@@ -84,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -217,9 +227,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "76970d9443ac4a0a",
+  "active": "aae9560522e19eb5",
   "lastOpenFiles": [
     "Kafka/데이터 레이크 아키텍처.md",
+    "Kafka/페이지 캐시.md",
+    "MSA/Untitled.md",
     "스크린샷 2023-11-10 오후 8.49.22.png",
     "스크린샷 2023-11-10 오후 8.46.59.png",
     "Study List.md",
@@ -249,7 +261,6 @@
     "Untitled.canvas",
     "MSA/Antifragile.md",
     "MSA/Kubernetes/Kubernetes.md",
-    "MSA/Untitled.md",
     "MSA/Kubernetes",
     "Http/RESTful API.md",
     "Http/OAuth.md",

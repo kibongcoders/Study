@@ -58,6 +58,10 @@
       "Java",
       "JPA",
       "Kafka",
+      "Kafka",
+      "Kafka",
+      "Kafka",
+      "MSA",
       "Kafka"
     ]
   },
@@ -96,7 +100,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1699616965036,
+  "spacesAutoBackupLast": 1699620769551,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
