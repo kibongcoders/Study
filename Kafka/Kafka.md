@@ -78,10 +78,15 @@ Scalar 언어로 된 오픈 소스 메시지 브로커 프로젝트이고 이벤
 또한 프로듀서와 컨슈머가 데이터 삭제 요청을 할 수 없고 오직 브로커만이 데이터 삭제를 요청할 수 있다.
 
 데이터 삭제는 파일 단위로 이루어지고 이 단위를 [[로그 세그먼트]]라고 부른다.
-세그먼트는 데이터가 쌓이는 동안 파일 시스템으로 열리고 브로커에 log.segement.bytes 또는 log.segment.ms 옵션에 값이 설정되면 세그먼트 파일이 닫힌다.
+세그먼트는 데이터가 쌓이는 동안 파일 시스템으로 열리고 브로커에 log.segement.bytes 또는 log.segment.ms 옵션에 설정 값이 넘겨지게 되면 세그먼트 파일이 닫힌다.
 
 세그먼트 파일이 닫히게 되는 기본값은 1GB이다.
-log.retention.ms log.retention.ms
+단힌 세그먼트 파일 log.retention.bytes, log.retention.ms 옵션의 설정값을 넘기면삭제 되고
+세그먼트 파일을 체크하는 간격은 log.retention.check.interval.ms에 따른다.
+
+## 컨슈머 오프셋 저장
+
+컨슈머 그룹은 토픽이 
 
 
 
