@@ -75,9 +75,11 @@
             "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Kafka"
+                "file": "Kafka/카프카 프로듀서.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -169,6 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kafka/카프카 프로듀서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kafka/카프카 프로듀서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +210,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kafka/카프카 프로듀서.md"
+              }
             }
           }
         ]
@@ -229,6 +235,7 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
+    "Kafka/카프카 프로듀서.md",
     "Kafka/데이터 레이크 아키텍처.md",
     "Kafka/페이지 캐시.md",
     "스크린샷 2023-11-10 오후 11.15.14.png",
