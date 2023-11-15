@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/스트림즈.md",
+                "file": "Kafka/카프카 스트림즈.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/스트림즈.md",
+                "file": "Kafka/카프카 스트림즈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/스트림즈.md",
+                "file": "Kafka/카프카 스트림즈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kafka/스트림즈.md"
+                "file": "Kafka/카프카 스트림즈.md"
               }
             }
           }
@@ -235,7 +235,7 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
-    "Kafka/스트림즈.md",
+    "Kafka/카프카 스트림즈.md",
     "Kafka/데이터 레이크 아키텍처.md",
     "Kafka/페이지 캐시.md",
     "Kafka/컨슈머.md",
