@@ -235,6 +235,7 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
+    "Kafka/코파티셔닝.md",
     "Kafka/카프카 스트림즈.md",
     "Kafka/데이터 레이크 아키텍처.md",
     "Kafka/페이지 캐시.md",
@@ -270,7 +271,6 @@
     "Docker/Docker.md",
     "Docker",
     "Java/자바 동작 방식.md",
-    "DB/Concurrency Control/Conflict.md",
     "Untitled.canvas",
     "MSA/Kubernetes",
     "JPA",
