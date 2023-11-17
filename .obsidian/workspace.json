@@ -75,9 +75,11 @@
             "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Kafka"
+                "file": "Kafka/프로듀서.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -169,6 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kafka/프로듀서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kafka/프로듀서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +210,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kafka/프로듀서.md"
+              }
             }
           }
         ]
@@ -227,7 +233,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f7210660fca8f903",
+  "active": "aae9560522e19eb5",
   "lastOpenFiles": [
     "Kafka/카프카 커넥트.md",
     "Kafka/로그 세그먼트.md",
