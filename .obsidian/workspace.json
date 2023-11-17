@@ -75,11 +75,9 @@
             "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Kafka"
               }
             }
           },
@@ -171,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kafka/카프카 커넥트.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -233,13 +227,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aae9560522e19eb5",
+  "active": "f7210660fca8f903",
   "lastOpenFiles": [
+    "Kafka/카프카 커넥트.md",
     "Kafka/로그 세그먼트.md",
     "Kafka/컨슈머.md",
     "Kafka/코파티셔닝.md",
     "Kafka/카프카 스트림즈.md",
-    "Kafka/카프카 커넥트.md",
     "Kafka/데이터 레이크 아키텍처.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/Cloud Native Application.md",
