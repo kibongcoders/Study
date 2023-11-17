@@ -72,6 +72,7 @@
       "Kafka",
       "Kafka",
       "Kafka",
+      "Kafka",
       "Kafka"
     ]
   },
@@ -110,7 +111,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700117355375,
+  "spacesAutoBackupLast": 1700219254594,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
