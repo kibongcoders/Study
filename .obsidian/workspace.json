@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/프로듀서.md",
+                "file": "Kafka/컨슈머.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/프로듀서.md",
+                "file": "Kafka/컨슈머.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/프로듀서.md",
+                "file": "Kafka/컨슈머.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kafka/프로듀서.md"
+                "file": "Kafka/컨슈머.md"
               }
             }
           }
@@ -235,11 +235,11 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
+    "Kafka/프로듀서.md",
     "Kafka/토픽.md",
     "Kafka/파티션.md",
     "Kafka/카프카 커넥트.md",
     "Kafka/컨슈머.md",
-    "Kafka/프로듀서.md",
     "Kafka/페이지 캐시.md",
     "Kafka/카프카 스트림즈.md",
     "Kafka/코파티셔닝.md",
