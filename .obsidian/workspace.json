@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/토픽.md",
+                "file": "Kafka/프로듀서.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/토픽.md",
+                "file": "Kafka/프로듀서.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/토픽.md",
+                "file": "Kafka/프로듀서.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kafka/토픽.md"
+                "file": "Kafka/프로듀서.md"
               }
             }
           }
@@ -235,6 +235,7 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
+    "Kafka/토픽.md",
     "Kafka/파티션.md",
     "Kafka/카프카 커넥트.md",
     "Kafka/컨슈머.md",
@@ -244,7 +245,6 @@
     "Kafka/코파티셔닝.md",
     "Kafka/로그 세그먼트.md",
     "Kafka/데이터 레이크 아키텍처.md",
-    "Kafka/토픽.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/Cloud Native Application.md",
     "conflict-files-obsidian-git.md",
