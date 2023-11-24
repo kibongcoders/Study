@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
+                "file": "Spring/SOLID.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
+                "file": "Spring/SOLID.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kafka/카프카 커넥트.md",
+                "file": "Spring/SOLID.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kafka/카프카 커넥트.md"
+                "file": "Spring/SOLID.md"
               }
             }
           }
@@ -235,16 +235,19 @@
   },
   "active": "aae9560522e19eb5",
   "lastOpenFiles": [
+    "Spring/SOLID.md",
+    "Spring/Spring.md",
+    "Spring",
+    "Kafka/데이터 레이크 아키텍처.md",
+    "Kafka/로그 세그먼트.md",
+    "Kafka/카프카 스트림즈.md",
+    "Kafka/카프카 커넥트.md",
     "Kafka/컨슈머.md",
     "Kafka/프로듀서.md",
     "Kafka/토픽.md",
     "Kafka/파티션.md",
-    "Kafka/카프카 커넥트.md",
     "Kafka/페이지 캐시.md",
-    "Kafka/카프카 스트림즈.md",
     "Kafka/코파티셔닝.md",
-    "Kafka/로그 세그먼트.md",
-    "Kafka/데이터 레이크 아키텍처.md",
     "MSA/Cloud Native Architecture.md",
     "MSA/Cloud Native Application.md",
     "conflict-files-obsidian-git.md",
@@ -267,8 +270,6 @@
     "AWS/ELB/NLB.md",
     "AWS/ELB/CLB.md",
     "AWS/ELB/ALB.md",
-    "Http/Http.md",
-    "AWS/Container Service/Lambda.md",
     "Docker/Kubernetes",
     "Docker",
     "Untitled.canvas",
@@ -279,7 +280,6 @@
     "Kafka",
     "AWS/VPC",
     "AWS",
-    "MSA/Spring Cloud",
     "MSA/Untitled.canvas",
     "Http/Image/Pasted image 20230915222259.png",
     "DB/Untitled.canvas",
