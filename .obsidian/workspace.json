@@ -31,11 +31,9 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "개발 방법론/Monolithic Architecture.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "CI-CD"
               }
             }
           },
@@ -127,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개발 방법론/Monolithic Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개발 방법론/Monolithic Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "개발 방법론/Monolithic Architecture.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -189,11 +183,24 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0d21631d3f7a78d4",
+  "active": "f7210660fca8f903",
   "lastOpenFiles": [
-    "개발 방법론/Monolithic Architecture.md",
-    "개발 방법론/.md",
+    "Monitoring",
+    "Untitled.md",
+    "CI-CD/CI-CD.md",
+    "CI-CD/CD/CD.md",
+    "CI-CD/CI.md",
+    "CI-CD/CD",
+    "CI-CD",
+    "Architecture/MSA/Cloud Native Application.md",
+    "Architecture/MSA/Cloud Native Architecture.md",
+    "Architecture/MSA/Antifragile.md",
+    "Architecture/Monolithic Architecture.md",
+    "Architecture/Architecture.md",
+    "Architecture",
+    "Architecture.md",
     "Docker/Container.md",
+    "개발 방법론/.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/DB Lock.md",
     "개발 방법론/Agile.md",
@@ -201,7 +208,6 @@
     "Todo/Untitled.md",
     "Spring/SOLID.md",
     "Untitled.canvas",
-    "Untitled.md",
     "개발 방법론",
     "Untitled 1.md",
     "Spring/IOC.md",
@@ -212,15 +218,6 @@
     "Spring/Spring.md",
     "Spring",
     "Kafka/데이터 레이크 아키텍처.md",
-    "Kafka/로그 세그먼트.md",
-    "Kafka/카프카 스트림즈.md",
-    "Kafka/카프카 커넥트.md",
-    "Kafka/컨슈머.md",
-    "Kafka/프로듀서.md",
-    "Kafka/토픽.md",
-    "Kafka/파티션.md",
-    "Kafka/페이지 캐시.md",
-    "Kafka/코파티셔닝.md",
     "스크린샷 2023-11-10 오후 11.10.04.png",
     "스크린샷 2023-11-10 오후 8.49.22.png",
     "스크린샷 2023-11-10 오후 8.46.59.png",
@@ -233,9 +230,6 @@
     "Docker",
     "MSA/Kubernetes",
     "JPA",
-    "AWS/Container Service",
-    "AWS/ELB",
-    "Kafka",
     "MSA/Untitled.canvas",
     "Http/Image/Pasted image 20230915222259.png",
     "DB/Untitled.canvas",
