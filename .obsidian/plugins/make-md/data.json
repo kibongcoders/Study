@@ -70,6 +70,7 @@
       "CI-CD",
       "Kubernetes",
       "Kubernetes",
+      "Kubernetes",
       "Kubernetes"
     ]
   },
@@ -108,7 +109,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701263800625,
+  "spacesAutoBackupLast": 1701264451669,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
