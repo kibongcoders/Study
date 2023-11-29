@@ -75,11 +75,9 @@
             "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Spring/IOC.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "Study//"
               }
             }
           },
@@ -171,7 +169,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/IOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +185,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/IOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,9 +206,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Spring/IOC.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -233,10 +227,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aae9560522e19eb5",
+  "active": "f7210660fca8f903",
   "lastOpenFiles": [
-    "Spring/SOLID.md",
+    "Kubernetes",
+    "Kubernates.md",
+    "Study List.md",
     "Spring/IOC.md",
+    "Spring/SOLID.md",
     "Spring/Spring.md",
     "Spring",
     "Kafka/데이터 레이크 아키텍처.md",
@@ -259,7 +256,6 @@
     "스크린샷 2023-11-10 오후 11.15.14.png",
     "스크린샷 2023-11-10 오후 11.11.41.png",
     "MSA/Untitled.md",
-    "Study List.md",
     "README.md",
     "Todo/2023-10-21.md",
     "MSA/MSA.md",
@@ -268,8 +264,6 @@
     "AWS/ELB/GLB.md",
     "GLB.drawio.png",
     "AWS/Container Service/ECS.md",
-    "AWS/ELB/NLB.md",
-    "AWS/ELB/CLB.md",
     "Docker/Kubernetes",
     "Docker",
     "Untitled.canvas",

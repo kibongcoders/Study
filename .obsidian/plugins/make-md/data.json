@@ -52,11 +52,10 @@
       "DB/Index",
       "AWS/ELB",
       "Docker/Kubernetes",
-      "MSA",
       "JPA",
       "Spring",
       "Spring",
-      "Todo"
+      "Kubernetes"
     ]
   },
   "expandedSpaces": [
@@ -94,7 +93,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1700832835568,
+  "spacesAutoBackupLast": 1701251329412,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
