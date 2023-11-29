@@ -31,50 +31,6 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/Concurrency Control/Recoverability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32326be67cf32163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/DB Lock.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19af793d216e4e7d",
-            "type": "leaf",
-            "state": {
-              "type": "make-folder-view",
-              "state": {
-                "contextPath": "Kafka"
-              }
-            }
-          },
-          {
-            "id": "76970d9443ac4a0a",
-            "type": "leaf",
-            "state": {
-              "type": "make-folder-view",
-              "state": {
-                "contextPath": "Kafka"
-              }
-            }
-          },
-          {
-            "id": "aae9560522e19eb5",
-            "type": "leaf",
-            "state": {
               "type": "make-folder-view",
               "state": {
                 "contextPath": "Kubernetes"
@@ -82,19 +38,19 @@
             }
           },
           {
-            "id": "354b04186d083320",
+            "id": "aae9560522e19eb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/Container Service/Lambda.md",
+                "file": "개발 방법론/Agile.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,14 +183,23 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aae9560522e19eb5",
+  "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "DB/Concurrency Control/Recoverability.md",
+    "DB/DB Lock.md",
+    "개발 방법론/Agile.md",
+    "개발 방법론/개발 방법론.md",
+    "Todo/Untitled.md",
+    "Spring/SOLID.md",
+    "Untitled.canvas",
+    "Untitled.md",
+    "개발 방법론",
+    "Untitled 1.md",
+    "Spring/IOC.md",
     "Kubernetes/Kubernetes.md",
     "Kubernetes",
     "Kubernates.md",
     "Study List.md",
-    "Spring/IOC.md",
-    "Spring/SOLID.md",
     "Spring/Spring.md",
     "Spring",
     "Kafka/데이터 레이크 아키텍처.md",
@@ -256,24 +221,15 @@
     "스크린샷 2023-11-10 오후 6.15.01.png",
     "스크린샷 2023-11-10 오후 11.15.14.png",
     "스크린샷 2023-11-10 오후 11.11.41.png",
-    "MSA/Untitled.md",
-    "README.md",
-    "Todo/2023-10-21.md",
-    "MSA/MSA.md",
     "스크린샷 2023-11-10 오후 6.10.50.png",
-    "GLB.drawio.png.md",
-    "AWS/ELB/GLB.md",
     "GLB.drawio.png",
-    "AWS/Container Service/ECS.md",
     "Docker/Kubernetes",
     "Docker",
-    "Untitled.canvas",
     "MSA/Kubernetes",
     "JPA",
     "AWS/Container Service",
     "AWS/ELB",
     "Kafka",
-    "AWS/VPC",
     "MSA/Untitled.canvas",
     "Http/Image/Pasted image 20230915222259.png",
     "DB/Untitled.canvas",

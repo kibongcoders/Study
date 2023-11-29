@@ -53,8 +53,10 @@
       "AWS/ELB",
       "Docker/Kubernetes",
       "JPA",
-      "Spring",
-      "Spring",
+      "Kubernetes",
+      "Todo",
+      "Todo",
+      "개발 방법론",
       "Kubernetes"
     ]
   },
@@ -93,7 +95,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701251329412,
+  "spacesAutoBackupLast": 1701252123711,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
