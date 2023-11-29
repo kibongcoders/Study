@@ -31,9 +31,11 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "CI-CD"
+                "file": "Kubernetes/구성요소.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -125,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kubernetes/구성요소.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kubernetes/구성요소.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kubernetes/구성요소.md"
+              }
             }
           }
         ]
@@ -183,8 +189,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "f7210660fca8f903",
+  "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "Kubernetes/구성요소.md",
     "Monitoring",
     "Untitled.md",
     "CI-CD/CI-CD.md",
@@ -229,7 +236,6 @@
     "Docker/Kubernetes",
     "Docker",
     "MSA/Kubernetes",
-    "JPA",
     "MSA/Untitled.canvas",
     "Http/Image/Pasted image 20230915222259.png",
     "DB/Untitled.canvas",
