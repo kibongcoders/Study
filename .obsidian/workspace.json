@@ -31,9 +31,11 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "Kubernetes"
+                "file": "개발 방법론/Monolithic Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -125,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "개발 방법론/Monolithic Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "개발 방법론/Monolithic Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "개발 방법론/Monolithic Architecture.md"
+              }
             }
           }
         ]
@@ -185,6 +191,9 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "개발 방법론/Monolithic Architecture.md",
+    "개발 방법론/.md",
+    "Docker/Container.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/DB Lock.md",
     "개발 방법론/Agile.md",
@@ -212,9 +221,6 @@
     "Kafka/파티션.md",
     "Kafka/페이지 캐시.md",
     "Kafka/코파티셔닝.md",
-    "MSA/Cloud Native Architecture.md",
-    "MSA/Cloud Native Application.md",
-    "conflict-files-obsidian-git.md",
     "스크린샷 2023-11-10 오후 11.10.04.png",
     "스크린샷 2023-11-10 오후 8.49.22.png",
     "스크린샷 2023-11-10 오후 8.46.59.png",

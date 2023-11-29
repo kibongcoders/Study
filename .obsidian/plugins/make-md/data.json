@@ -57,7 +57,12 @@
       "Todo",
       "Todo",
       "개발 방법론",
-      "Kubernetes"
+      "Kubernetes",
+      "Docker",
+      "Docker/Kubernetes",
+      "Docker/Kubernetes",
+      "Docker",
+      "개발 방법론"
     ]
   },
   "expandedSpaces": [
@@ -95,7 +100,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701252123711,
+  "spacesAutoBackupLast": 1701252896428,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",
