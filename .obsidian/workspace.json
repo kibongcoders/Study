@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/구성요소.md",
+                "file": "Kubernetes/구성 요소.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/구성요소.md",
+                "file": "Kubernetes/구성 요소.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/구성요소.md",
+                "file": "Kubernetes/구성 요소.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/구성요소.md"
+                "file": "Kubernetes/구성 요소.md"
               }
             }
           }
@@ -191,7 +191,7 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
-    "Kubernetes/구성요소.md",
+    "Kubernetes/구성 요소.md",
     "Monitoring",
     "Untitled.md",
     "CI-CD/CI-CD.md",
