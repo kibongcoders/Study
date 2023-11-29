@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/파드 생명주기.md",
+                "file": "Kubernetes/오브젝트.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/파드 생명주기.md",
+                "file": "Kubernetes/오브젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/파드 생명주기.md",
+                "file": "Kubernetes/오브젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/파드 생명주기.md"
+                "file": "Kubernetes/오브젝트.md"
               }
             }
           }
@@ -191,6 +191,7 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "Kubernetes/오브젝트.md",
     "Kubernetes/구성 요소.md",
     "Kubernetes/파드 생명주기.md",
     "Monitoring",
@@ -223,7 +224,6 @@
     "Kubernetes",
     "Kubernates.md",
     "Study List.md",
-    "Spring/Spring.md",
     "Spring",
     "스크린샷 2023-11-10 오후 11.10.04.png",
     "스크린샷 2023-11-10 오후 8.49.22.png",
