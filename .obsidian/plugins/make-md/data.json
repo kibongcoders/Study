@@ -58,9 +58,6 @@
       "Docker/Kubernetes",
       "Docker/Kubernetes",
       "Docker/Kubernetes",
-      "Architecture",
-      "Architecture",
-      "Architecture",
       "Docker/Kubernetes",
       "CI",
       "CI",
@@ -68,10 +65,9 @@
       "CI/CD",
       "CI",
       "CI-CD",
-      "Kubernetes",
-      "Kubernetes",
-      "Kubernetes",
-      "Kubernetes"
+      "CI-CD",
+      "CI-CD",
+      "CI-CD/GitHubAction"
     ]
   },
   "expandedSpaces": [
@@ -109,7 +105,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701428368566,
+  "spacesAutoBackupLast": 1701437755159,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

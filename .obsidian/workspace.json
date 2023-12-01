@@ -31,11 +31,9 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "make-folder-view",
               "state": {
-                "file": "Study List.md",
-                "mode": "source",
-                "source": false
+                "contextPath": "CI-CD/GitHubAction"
               }
             }
           },
@@ -127,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study List.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -191,6 +185,10 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "CI-CD/GitHub Action/GitHubAction.md",
+    "CI-CD/GitHub Action",
+    "CI-CD/.md",
+    "Study List.md",
     "Kubernetes/디플로이먼트.md",
     "Kubernetes/오브젝트.md",
     "Kubernetes/구성 요소.md",
@@ -220,10 +218,7 @@
     "Untitled.canvas",
     "개발 방법론",
     "Untitled 1.md",
-    "Spring/IOC.md",
-    "Kubernetes/Kubernetes.md",
     "Kubernetes",
-    "Kubernates.md",
     "Spring",
     "스크린샷 2023-11-10 오후 11.10.04.png",
     "스크린샷 2023-11-10 오후 8.49.22.png",
@@ -235,7 +230,6 @@
     "GLB.drawio.png",
     "Docker/Kubernetes",
     "Docker",
-    "MSA/Kubernetes",
     "MSA/Untitled.canvas",
     "Http/Image/Pasted image 20230915222259.png",
     "DB/Untitled.canvas",
