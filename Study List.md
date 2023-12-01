@@ -5,3 +5,7 @@
 - [] MSA
 - [ ] [[Spring Cloud]] 
 - [ ] Kubernetes
+- [ ] GitHub Action
+- [ ] Helm
+- [ ] ArhoCD
+- [ ] Nexus Repository ECR 대체 가능
