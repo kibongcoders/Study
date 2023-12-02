@@ -15,3 +15,11 @@ GitHub Actions 워크플로우는 레포지토리에서 이벤트가 발생할 �
 
 ![GitHub Action](https://docs.github.com/assets/cb-25535/mw-1440/images/help/actions/overview-actions-simple.webp)
 
+### Workflows
+
+하나 이상의 작업을 실행 구성이 가능한 자동화 프로세스
+워크플로우는 Yaml 파일로 정의
+해당 파일은 레보지토리에 체크인 되어있습니다.
+레포지토리에서 이벤트에 의해 트리거가될 때 실행되거나 수동으로 트리거하거나 정의된 일정에 따라 실행 가능
+
+레포지토리의 .github/workflows 디렉토리에 정의 
