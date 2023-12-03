@@ -86,4 +86,15 @@ GitHub 대소문자를 구분하지 않는다는 점 기억해야합니다.
 
 searchString이 searchValue로 끝나면 true를 반환합니다.
 
+### format( string, replaceValue0, replaceValue1, ..., replaceValueN)
 
+`string`의 값을 `replaceValueN` 변수로 바꿉니다.
+`replaceValue` 및 `string`을 하나 이상 지정해야 합니다.
+
+```javascript
+format('Hello {0} {1} {2}', 'Mona', 'the', 'Octocat')
+```
+
+의 경우 ‘Hello Mona the Octocat’을 반환합니다.
+
+### join
