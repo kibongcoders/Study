@@ -47,3 +47,6 @@ env:
 ## 주의점
 
 GitHub는 문자열을 비교할 때 대/소문자를 무시합니다.
+`steps.<step_id>.outputs.<output_name>`은 문자열로 계산됩니다.
+숫자 비교의 경우 `fromJSON()` 함수를 사용하여 문자열을 숫자로 변환할 수 있습니다.
+
