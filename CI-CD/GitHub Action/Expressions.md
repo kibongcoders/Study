@@ -97,4 +97,11 @@ format('Hello {0} {1} {2}', 'Mona', 'the', 'Octocat')
 
 의 경우 ‘Hello Mona the Octocat’을 반환합니다.
 
-### join
+### join(array, optionalSeparator)
+
+?? 공부가 필요함
+
+### toJSON(value)
+
+value의 자동 서식 지정을 JSON 표현으로 변환합니다.
+
