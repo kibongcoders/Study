@@ -72,18 +72,11 @@ on: [push]
 
 ```
 
-- name : 워크플로우의 이름입니다. 생략 시 워크플로우 파일 이름이 대신 ㅅ
-
-# 선택 사항 - GitHub 저장소의 "Actions" 탭에서 나타날 워크플로의 이름입니다. 이 필드를 생략하면 워크플로 파일의 이름이 대신 사용됩니다.
-name: learn-github-actions
-# 선택 사항 - 워크플로에서 생성된 워크플로 실행의 이름으로, 저장소의 "Actions" 탭에서 워크플로 실행 목록에 표시됩니다. 이 예제는 `github` 컨텍스트를 사용하여 워크플로 실행을 트리거한 액터의 사용자 이름을 표시하는 표현식을 사용합니다. 자세한 내용은 "[AUTOTITLE](/actions/using-workflows/workflow-syntax-for-github-actions#run-name)"을 참조하세요.
-run-name: ${{ github.actor }} is learning GitHub Actions
-
-# 이 워크플로에 대한 트리거를 지정합니다. 이 예제는 `push` 이벤트를 사용하므로 누군가 저장소에 변경을 푸시하거나 풀 리퀘스트를 병합할 때마다 워크플로 실행이 트리거됩니다. 이는 모든 브랜치로의 푸시에 대해 트리거되며, 특정 브랜치, 경로 또는 태그에만 실행되도록 하는 구문 예제는 "[AUTOTITLE](/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpathspaths-ignore)"를 참조하세요.
-on: [push]
-
-# `learn-github-actions` 워크플로에서 실행되는 모든 작업을 그룹화합니다.
-jobs:
+- name : 워크플로우의 이름입니다. 생략 시 워크플로우 파일 이름이 대신 생성됩니다.
+- run-name : 워크플로우 실행 이름으로, 워크플로우 실행 목록에 표시되는 이름입니다.
+- on : 워크플로우에 대한 트리거를 지정합니다. 위에 예제의 경우 push 이벤트를 사용하므로 변경을 푸시하거나 풀 리퀘스트를 병합할 때마다 워크플로우 실행이 트리거됩니다.
+- jobs : 워크플로우에서 실행되는 모든 작업을 그룹화 가능합니다.
+- 
 
 # `check-bats-version`라는 작업을 정의합니다. 하위 키는 작업의 속성을 정의합니다.
   check-bats-version:
