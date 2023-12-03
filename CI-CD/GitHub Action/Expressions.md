@@ -71,3 +71,13 @@ GitHub는 식에서 사용할 수 있는 기본 제공 함수 집합을 제공�
 일부 함수는 값을 문자열로 캐스팅하여 비교를 수행합니다.
 GitHub는 이러한 변환을 사용하여 데이터 형식을 문자열로 캐스팅합니다.
 
+### contains()
+
+contains(search, item) search가 item을 포함하는 경우 true 반환
+search가 배열인 경우 item이 배열의 요소인 경우 true를 반환합니다.
+
+### startWith(searchString, searchValue)
+
+
+
+
