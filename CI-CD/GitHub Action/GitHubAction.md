@@ -53,6 +53,8 @@ GitHub Actions 플랫폼을 위한 커스텀 프로그램이고, 복잡하지만
 다양한 OS에서 러너를 제공하여 워크플로우를 실행하며, 각 워크플로우 실행은 새롭게 프로비저닝된 가상머신에서 실행됩니다.
 GitHub 또한 큰 러너를 제공하고, 이는 더 큰 구성으로 사용 가능합니다.
 
+## 기본적인 Yaml 파일 알아보기
+
 ```
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
@@ -70,5 +72,38 @@ on: [push]
 
 ```
 
+- name : 워크플로우의 이름입니다. 생략 시 워크플로우 파일 이름이 대신 ㅅ
 
+# 선택 사항 - GitHub 저장소의 "Actions" 탭에서 나타날 워크플로의 이름입니다. 이 필드를 생략하면 워크플로 파일의 이름이 대신 사용됩니다.
+name: learn-github-actions
+# 선택 사항 - 워크플로에서 생성된 워크플로 실행의 이름으로, 저장소의 "Actions" 탭에서 워크플로 실행 목록에 표시됩니다. 이 예제는 `github` 컨텍스트를 사용하여 워크플로 실행을 트리거한 액터의 사용자 이름을 표시하는 표현식을 사용합니다. 자세한 내용은 "[AUTOTITLE](/actions/using-workflows/workflow-syntax-for-github-actions#run-name)"을 참조하세요.
+run-name: ${{ github.actor }} is learning GitHub Actions
 
+# 이 워크플로에 대한 트리거를 지정합니다. 이 예제는 `push` 이벤트를 사용하므로 누군가 저장소에 변경을 푸시하거나 풀 리퀘스트를 병합할 때마다 워크플로 실행이 트리거됩니다. 이는 모든 브랜치로의 푸시에 대해 트리거되며, 특정 브랜치, 경로 또는 태그에만 실행되도록 하는 구문 예제는 "[AUTOTITLE](/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpathspaths-ignore)"를 참조하세요.
+on: [push]
+
+# `learn-github-actions` 워크플로에서 실행되는 모든 작업을 그룹화합니다.
+jobs:
+
+# `check-bats-version`라는 작업을 정의합니다. 하위 키는 작업의 속성을 정의합니다.
+  check-bats-version:
+
+# 작업을 최신 버전의 Ubuntu Linux 러너에서 실행하도록 구성합니다. 이는 작업이 GitHub에서 호스팅하는 새 가상 머신에서 실행됨을 의미합니다. 다른 러너를 사용하는 구문 예제는 "[AUTOTITLE](/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)"를 참조하세요.
+    runs-on: ubuntu-latest
+
+# `check-bats-version` 작업에서 실행되는 모든 단계를 그룹화합니다. 이 섹션에 중첩된 각 항목은 별도의 액션 또는 셸 스크립트입니다.
+    steps:
+
+# `uses` 키워드는 이 단계가 `actions/checkout` 액션의 `v4`를 실행하도록 지정합니다. 이는 저장소를 러너에 체크아웃하여 코드에 대한 스크립트 또는 다른 액션을 실행할 수 있게 합니다(빌드 및 테스트 도구와 같은). 워크플로가 저장소의 코드를 사용할 때마다 체크아웃 액션을 사용해야 합니다.
+      - uses: actions/checkout@v4
+
+# 이 단계는 `actions/setup-node@v3` 액션을 사용하여 지정된 Node.js 버전(이 예제에서는 버전 14)을 설치합니다. 이로써 `node` 및 `npm` 명령이 `PATH`에 추가됩니다.
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+# `run` 키워드는 작업이 러너에서 명령을 실행하도록 합니다. 이 경우 `npm`을 사용하여 `bats` 소프트웨어 테스트 패키지를 설치합니다.
+      - run: npm install -g bats
+
+# 마지막으로 `bats` 명령을 실행하여 소프트웨어 버전을 출력합니다.
+      - run: bats -v
