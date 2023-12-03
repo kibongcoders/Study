@@ -76,8 +76,8 @@ GitHub는 이러한 변환을 사용하여 데이터 형식을 문자열로 캐�
 contains(search, item) search가 item을 포함하는 경우 true 반환
 search가 배열인 경우 item이 배열의 요소인 경우 true를 반환합니다.
 
-### startWith(searchString, searchValue)
+### startsWith(searchString, searchValue)
 
-
+searchString이 searchValue로 시작하면 true를 반환합니
 
 
