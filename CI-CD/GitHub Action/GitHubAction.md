@@ -57,27 +57,18 @@ GitHub 또한 큰 러너를 제공하고, 이는 더 큰 구성으로 사용 가
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
-jobs:
-check-bats-version:
-
-# Configures the job to run on the latest version of an Ubuntu Linux runner. This means that the job will execute on a fresh virtual machine hosted by GitHub. For syntax examples using other runners, see "[AUTOTITLE](/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)"
-    runs-on: ubuntu-latest
-
-# Groups together all the steps that run in the `check-bats-version` job. Each item nested under this section is a separate action or shell script.
-    steps:
-
-# The `uses` keyword specifies that this step will run `v4` of the `actions/checkout` action. This is an action that checks out your repository onto the runner, allowing you to run scripts or other actions against your code (such as build and test tools). You should use the checkout action any time your workflow will use the repository's code.
-      - uses: actions/checkout@v4
-
-# This step uses the `actions/setup-node@v3` action to install the specified version of the Node.js. (This example uses version 14.) This puts both the `node` and `npm` commands in your `PATH`.
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-
-# The `run` keyword tells the job to execute a command on the runner. In this case, you are using `npm` to install the `bats` software testing package.
-      - run: npm install -g bats
-
-# Finally, you'll run the `bats` command with a parameter that outputs the software version.
-      - run: bats -v
+	jobs:
+	check-bats-version:
+		runs-on: ubuntu-latest
+	    steps:
+		    - uses: actions/checkout@v4
+		    - uses: actions/setup-node@v3
+		        with:
+			        node-version: '14'
+			- run: npm install -g bats
+		    - run: bats -v
 
 ```
+
+
+
