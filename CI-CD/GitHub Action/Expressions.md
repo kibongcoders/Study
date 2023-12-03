@@ -78,6 +78,12 @@ search가 배열인 경우 item이 배열의 요소인 경우 true를 반환합�
 
 ### startsWith(searchString, searchValue)
 
-searchString이 searchValue로 시작하면 true를 반환합니
+searchString이 searchValue로 시작하면 true를 반환합니다. 
+값을 문자열로 비교해서 비교합니다.
+GitHub 대소문자를 구분하지 않는다는 점 기억해야합니다.
+
+### endsWith(searchString, searchValue)
+
+searchString이 searchValue로 끝나면 true를 반환합니다.
 
 
