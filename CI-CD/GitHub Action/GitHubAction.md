@@ -76,16 +76,11 @@ on: [push]
 - run-name : 워크플로우 실행 이름으로, 워크플로우 실행 목록에 표시되는 이름입니다.
 - on : 워크플로우에 대한 트리거를 지정합니다. 위에 예제의 경우 push 이벤트를 사용하므로 변경을 푸시하거나 풀 리퀘스트를 병합할 때마다 워크플로우 실행이 트리거됩니다.
 - jobs : 워크플로우에서 실행되는 모든 작업을 그룹화 가능합니다.
-- 
+- check-bats-version : 'check-bats-version' 이라는 작업을 정의합니다.
+- runs-on : 작업의 환경을 설정할 수 있습니다. GitHub에서 호스팅하는 가상머신에서 실행됨을 의미합니다.
+- steps : job에서 실행되는 모든 단계를 그룹화 합니다.
+- uses : 
 
-# `check-bats-version`라는 작업을 정의합니다. 하위 키는 작업의 속성을 정의합니다.
-  check-bats-version:
-
-# 작업을 최신 버전의 Ubuntu Linux 러너에서 실행하도록 구성합니다. 이는 작업이 GitHub에서 호스팅하는 새 가상 머신에서 실행됨을 의미합니다. 다른 러너를 사용하는 구문 예제는 "[AUTOTITLE](/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)"를 참조하세요.
-    runs-on: ubuntu-latest
-
-# `check-bats-version` 작업에서 실행되는 모든 단계를 그룹화합니다. 이 섹션에 중첩된 각 항목은 별도의 액션 또는 셸 스크립트입니다.
-    steps:
 
 # `uses` 키워드는 이 단계가 `actions/checkout` 액션의 `v4`를 실행하도록 지정합니다. 이는 저장소를 러너에 체크아웃하여 코드에 대한 스크립트 또는 다른 액션을 실행할 수 있게 합니다(빌드 및 테스트 도구와 같은). 워크플로가 저장소의 코드를 사용할 때마다 체크아웃 액션을 사용해야 합니다.
       - uses: actions/checkout@v4
