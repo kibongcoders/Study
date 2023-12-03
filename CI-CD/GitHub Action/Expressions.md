@@ -104,4 +104,26 @@ format('Hello {0} {1} {2}', 'Mona', 'the', 'Octocat')
 ### toJSON(value)
 
 value의 자동 서식 지정을 JSON 표현으로 변환합니다.
+`toJSON(job)`은 `{ "status": "success" }`를 반환할 수 있습니다.
 
+```yaml
+name: build
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - id: set-matrix
+        run: echo "matrix={\"include\":[{\"project\":\"foo\",\"config\":\"Debug\"},{\"project\":\"bar\",\"config\":\"Release\"}]}" >> $GITHUB_OUTPUT
+  job2:
+    needs: job1
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJSON(needs.job1.outputs.matrix) }}
+    steps:
+      - run: build
+```
+
+해당 .yaml 파일의 경우  
