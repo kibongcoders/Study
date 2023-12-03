@@ -79,19 +79,5 @@ on: [push]
 - check-bats-version : 'check-bats-version' 이라는 작업을 정의합니다.
 - runs-on : 작업의 환경을 설정할 수 있습니다. GitHub에서 호스팅하는 가상머신에서 실행됨을 의미합니다.
 - steps : job에서 실행되는 모든 단계를 그룹화 합니다.
-- uses : 
-
-
-# `uses` 키워드는 이 단계가 `actions/checkout` 액션의 `v4`를 실행하도록 지정합니다. 이는 저장소를 러너에 체크아웃하여 코드에 대한 스크립트 또는 다른 액션을 실행할 수 있게 합니다(빌드 및 테스트 도구와 같은). 워크플로가 저장소의 코드를 사용할 때마다 체크아웃 액션을 사용해야 합니다.
-      - uses: actions/checkout@v4
-
-# 이 단계는 `actions/setup-node@v3` 액션을 사용하여 지정된 Node.js 버전(이 예제에서는 버전 14)을 설치합니다. 이로써 `node` 및 `npm` 명령이 `PATH`에 추가됩니다.
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-
-# `run` 키워드는 작업이 러너에서 명령을 실행하도록 합니다. 이 경우 `npm`을 사용하여 `bats` 소프트웨어 테스트 패키지를 설치합니다.
-      - run: npm install -g bats
-
-# 마지막으로 `bats` 명령을 실행하여 소프트웨어 버전을 출력합니다.
-      - run: bats -v
+- uses : 스크립트 또는 다른 액션을 실행 가능
+- run : 작업이 러너에서 명령을 실행하도록 합니다.
