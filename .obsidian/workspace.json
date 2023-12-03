@@ -31,9 +31,11 @@
             "id": "0d21631d3f7a78d4",
             "type": "leaf",
             "state": {
-              "type": "make-folder-view",
+              "type": "markdown",
               "state": {
-                "contextPath": "CI-CD/GitHubAction"
+                "file": "CI-CD/GitHub Action/필수 기능.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -125,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CI-CD/GitHub Action/필수 기능.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CI-CD/GitHub Action/필수 기능.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CI-CD/GitHub Action/필수 기능.md"
+              }
             }
           }
         ]
@@ -185,7 +191,10 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
+    "CI-CD/GitHub Action/필수 기능.md",
+    "CI-CD/GitHub Action/GitHub Action.md",
     "CI-CD/GitHub Action/GitHubAction.md",
+    "CI-CD/GitHub Action/.md",
     "CI-CD/GitHub Action",
     "CI-CD/.md",
     "Study List.md",
@@ -213,11 +222,8 @@
     "DB/DB Lock.md",
     "개발 방법론/Agile.md",
     "개발 방법론/개발 방법론.md",
-    "Todo/Untitled.md",
-    "Spring/SOLID.md",
     "Untitled.canvas",
     "개발 방법론",
-    "Untitled 1.md",
     "Kubernetes",
     "Spring",
     "스크린샷 2023-11-10 오후 11.10.04.png",
