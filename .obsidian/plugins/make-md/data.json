@@ -69,7 +69,6 @@
       "CI-CD",
       "CI-CD/GitHubAction",
       "DB",
-      "CI-CD/GitHub Action",
       "CI-CD/GitHub Action"
     ]
   },
@@ -108,7 +107,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1701694909236,
+  "spacesAutoBackupLast": 1701696188353,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "aliases",

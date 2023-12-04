@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI-CD/GitHub Action/Context.md",
+                "file": "CI-CD/GitHub Action/Workflows.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CI-CD/GitHub Action/Context.md",
+                "file": "CI-CD/GitHub Action/Workflows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CI-CD/GitHub Action/Context.md",
+                "file": "CI-CD/GitHub Action/Workflows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CI-CD/GitHub Action/Context.md"
+                "file": "CI-CD/GitHub Action/Workflows.md"
               }
             }
           }
@@ -191,8 +191,10 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
-    "CI-CD/GitHub Action/\bExpressions.md",
     "CI-CD/GitHub Action/Context.md",
+    "CI-CD/GitHub Action/Workflows.md",
+    "CI-CD/Untitled.md",
+    "CI-CD/GitHub Action/\bExpressions.md",
     "CI-CD/GitHub Action/필수 기능.md",
     "CI-CD/GitHub Action/GitHub Action.md",
     "CI-CD/GitHub Action/GitHubAction.md",
@@ -220,8 +222,6 @@
     "Architecture.md",
     "Docker/Container.md",
     "개발 방법론/.md",
-    "DB/Concurrency Control/Recoverability.md",
-    "DB/DB Lock.md",
     "Untitled.canvas",
     "개발 방법론",
     "Kubernetes",
