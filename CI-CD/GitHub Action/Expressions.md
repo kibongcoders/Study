@@ -126,4 +126,26 @@ jobs:
       - run: build
 ```
 
-해당 .yaml 파일의 경우 matrix json 파일을  fromJSSON
+해당 .yaml 파일의 경우 matrix json 파일을  fromJSON을 사용하여 다음 작업을 전달합니다.
+
+```yaml
+name: print
+on: push
+env:
+  continue: true
+  time: 3
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - continue-on-error: ${{ fromJSON(env.continue) }}
+        timeout-minutes: ${{ fromJSON(env.time) }}
+        run: echo ...
+```
+
+해당 파일의 경우 fromJSON 사용하여 JSON 데이터의 값을 가져올 수 있습니다.
+
+### hashFiles(path)
+
+path 패턴과 일치하는 파일 세트에 대한 단일 해시를 반환합니다.
+path 패턴 또는 쉼표로 여러 path 패턴을 제공 가능합니다.
