@@ -167,3 +167,24 @@ steps:
   - name: The job has succeeded
     if: ${{ success() }}
 ```
+
+### always()
+
+취소된 경우에도 단계가 항상 실행되고 true가 반환되게 됩니다.
+하지만 심각한 오류가 발생 될 수 있는 작업에는 사용하지 않는것이 좋습니다.
+이런 경우 사건이초과될 때 까지 워크플로우가 중단 될 수 있습니다.
+
+### cancelled()
+
+워크플로우가 취소 된 경우 true를 반환합니다.
+
+### failure()
+
+```yaml
+steps:
+  ...
+  - name: The job has failed
+    if: ${{ failure() }}
+```
+
+
