@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI-CD/GitHub Action/\bExpressions.md",
+                "file": "CI-CD/GitHub Action/Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CI-CD/GitHub Action/\bExpressions.md",
+                "file": "CI-CD/GitHub Action/Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CI-CD/GitHub Action/\bExpressions.md",
+                "file": "CI-CD/GitHub Action/Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CI-CD/GitHub Action/\bExpressions.md"
+                "file": "CI-CD/GitHub Action/Context.md"
               }
             }
           }
@@ -191,8 +191,9 @@
   },
   "active": "0d21631d3f7a78d4",
   "lastOpenFiles": [
-    "CI-CD/GitHub Action/필수 기능.md",
     "CI-CD/GitHub Action/\bExpressions.md",
+    "CI-CD/GitHub Action/Context.md",
+    "CI-CD/GitHub Action/필수 기능.md",
     "CI-CD/GitHub Action/GitHub Action.md",
     "CI-CD/GitHub Action/GitHubAction.md",
     "CI-CD/GitHub Action/.md",
@@ -221,7 +222,6 @@
     "개발 방법론/.md",
     "DB/Concurrency Control/Recoverability.md",
     "DB/DB Lock.md",
-    "개발 방법론/Agile.md",
     "Untitled.canvas",
     "개발 방법론",
     "Kubernetes",
