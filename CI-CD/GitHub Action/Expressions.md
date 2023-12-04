@@ -168,6 +168,9 @@ steps:
     if: ${{ success() }}
 ```
 
+### success()
+이전 step이 성공한 경우 true를 반환합니다.
+
 ### always()
 
 취소된 경우에도 단계가 항상 실행되고 true가 반환되게 됩니다.
@@ -188,3 +191,49 @@ steps:
 ```
 
 
+## 개체 필터
+
+`*` 을 사용하여 필터를 적용하고 컬렉션에서 일치하는 항목을 선택할 수 있습니다.
+
+```json
+[
+  { "name": "apple", "quantity": 1 },
+  { "name": "orange", "quantity": 2 },
+  { "name": "pear", "quantity": 1 }
+]
+```
+
+해당 배열에서 `fruits.*.name` 필터는 `[ "apple", "orange", "pear" ]` 배열을 반환합니다.
+
+또한 개체의 구문에서도 가능한데
+```json
+{
+  "scallions":
+  {
+    "colors": ["green", "white", "red"],
+    "ediblePortions": ["roots", "stalks"],
+  },
+  "beets":
+  {
+    "colors": ["purple", "red", "gold", "white", "pink"],
+    "ediblePortions": ["roots", "stems", "leaves"],
+  },
+  "artichokes":
+  {
+    "colors": ["green", "purple", "red", "black"],
+    "ediblePortions": ["hearts", "stems", "leaves"],
+  },
+}
+```
+
+에 경우 `vegetables.*.ediblePortions` 의 경우 
+
+```json
+[
+  ["roots", "stalks"],
+  ["hearts", "stems", "leaves"],
+  ["roots", "stems", "leaves"],
+]
+```
+
+값을 반환하게 됩니다.
