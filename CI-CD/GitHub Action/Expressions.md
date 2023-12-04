@@ -149,3 +149,21 @@ jobs:
 
 path 패턴과 일치하는 파일 세트에 대한 단일 해시를 반환합니다.
 path 패턴 또는 쉼표로 여러 path 패턴을 제공 가능합니다.
+
+path는 GITHUB_WORKSPACE 디렉터리에 상대적입니다.
+
+단일의 경우
+`hashFiles('**/package-lock.json')`
+
+여러 패턴의 경우
+`hashFiles('**/package-lock.json', '**/Gemfile.lock')`
+
+## 상태 검사 함수
+
+상태검사 함수를 if 조건의 식으로 사용할 수 있습니다.
+```yaml
+steps:
+  ...
+  - name: The job has succeeded
+    if: ${{ success() }}
+```
